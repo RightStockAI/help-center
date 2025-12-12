@@ -28,3 +28,90 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Introduction page specific styles */
+.step-card:hover,
+.feature-card:hover,
+.user-type-card:hover,
+.help-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effects for introduction page */
+.pricing-cta-buttons .button.button--secondary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  color: rgb(59, 130, 246) !important;
+  text-decoration: none !important;
+}
+
+.pricing-cta-buttons .button.button--outline:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+  text-decoration: none !important;
+  border-color: white !important;
+}
+
+/* Pricing card hover effects for introduction page */
+.pricing-card:hover {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 12px 40px rgba(99, 102, 241, 0.2) !important;
+  border-color: var(--ifm-color-primary) !important;
+}
+
+.pricing-card.free:hover {
+  border-color: rgba(34, 197, 94, 0.5) !important;
+}
+
+.pricing-card.premium:hover {
+  border-color: rgba(168, 85, 247, 0.5) !important;
+}
+
+/* CTA button hover effects for pricing cards */
+.pricing-card .cta-button:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3) !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.pricing-card.free .cta-button:hover {
+  box-shadow: 0 8px 20px rgba(34, 197, 94, 0.3) !important;
+}
+
+.pricing-card.premium .cta-button:hover {
+  box-shadow: 0 8px 20px rgba(168, 85, 247, 0.3) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .steps-hero {
+    padding: 2rem 1rem !important;
+  }
+  
+  .steps-hero h2 {
+    font-size: 2rem !important;
+  }
+  
+  .pricing-cta {
+    padding: 2rem 1.5rem !important;
+  }
+  
+  .pricing-cta h2 {
+    font-size: 2rem !important;
+  }
+  
+  .pricing-cta-buttons {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
+  .pricing-cta-buttons .button {
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+}

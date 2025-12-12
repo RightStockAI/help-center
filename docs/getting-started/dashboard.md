@@ -6,6 +6,27 @@ sidebar_position: 2
 
 Your dashboard is the central hub for all your stock market activities on RightStockAI.
 
+## Dashboard Access
+
+![Login Required Interface](../images/rightstockai-login-required.png)
+*Authentication interface showing when users need to log in to access the dashboard*
+
+**Note:** The dashboard requires user authentication. If you're not logged in, you'll see a login interface prompting you to sign up or sign in to access your personalized dashboard.
+
+## Dashboard Interface
+
+Once logged in, you'll see the full RightStockAI dashboard:
+
+### Desktop Dashboard
+
+![Desktop Dashboard](../images/dashboard-desktop.png)
+*Complete desktop dashboard showing market overview, portfolio widgets, navigation menu, and all key features*
+
+### Mobile Dashboard
+
+![Mobile Dashboard](../images/dashboard-mobile.png)
+*Mobile-optimized dashboard interface with responsive design and touch-friendly controls*
+
 ## Dashboard Sections
 
 ### 📊 Market Overview

@@ -1,7 +1,7 @@
 /* Hero Banner - Matching main app gradient style */
 .heroBanner {
   position: relative;
-  padding: 6rem 2rem;
+  padding: 3rem 2rem 4rem 2rem;
   text-align: center;
   min-height: 90vh;
   display: flex;
@@ -30,6 +30,7 @@
   inset: 0;
   overflow: hidden;
   z-index: 0;
+  pointer-events: none;
 }
 
 .blobBlue {
@@ -86,7 +87,7 @@
   border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 500;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   color: rgb(37, 99, 235);
 }
 
@@ -163,7 +164,7 @@
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* All buttons in .buttons containers */
@@ -177,7 +178,7 @@
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  z-index: 10;
+  z-index: 100;
   min-width: 140px;
   text-align: center;
   border: none;
@@ -208,6 +209,7 @@
 .buttons .button--primary {
   background: linear-gradient(135deg, rgb(59, 130, 246), rgb(37, 99, 235));
   color: white;
+  border: none;
 }
 
 .buttons .button--secondary {
@@ -220,11 +222,6 @@
   background: rgba(31, 41, 55, 0.9);
   border-color: rgba(59, 130, 246, 0.3);
   color: rgb(147, 197, 253);
-}
-
-.buttons .button--primary {
-  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(37, 99, 235));
-  border: none;
 }
 
 .buttons .button--primary:hover {
@@ -232,22 +229,14 @@
   box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.3);
 }
 
-.buttons .button--secondary {
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(59, 130, 246, 0.2);
-  color: rgb(37, 99, 235);
-}
-
-[data-theme='dark'] .buttons .button--secondary {
-  background: rgba(31, 41, 55, 0.9);
-  border-color: rgba(59, 130, 246, 0.3);
-  color: rgb(147, 197, 253);
-}
-
 .buttons .button--secondary:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.2);
   background: rgba(255, 255, 255, 1);
+}
+
+[data-theme='dark'] .buttons .button--secondary:hover {
+  background: rgba(55, 65, 81, 1);
 }
 
 /* Trust Badges */
@@ -259,6 +248,8 @@
   flex-wrap: wrap;
   font-size: 0.875rem;
   color: rgb(107, 114, 128);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 [data-theme='dark'] .trustBadges {
@@ -535,7 +526,7 @@
 /* Responsive */
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 4rem 1.5rem;
+    padding: 2rem 1.5rem 3rem 1.5rem;
     min-height: 80vh;
   }
   

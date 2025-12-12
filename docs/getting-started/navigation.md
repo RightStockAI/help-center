@@ -8,28 +8,43 @@ description: Learn how to navigate the RightStockAI platform effectively
 
 This guide will help you understand the RightStockAI interface and how to move around the platform efficiently.
 
+## Interactive Authentication Flow
+
+RightStockAI provides an interactive session experience that allows you to explore the platform with live access:
+
+### Access Levels
+- **Public Pages** - Homepage, pricing, documentation (no login required)
+- **Protected Areas** - Dashboard, analysis tools, portfolio management (login required)
+- **Trial Access** - 14-day free trial with full feature access
+- **Live Demo** - Experience the full interface without commitment
+
+### Authentication Features
+- **Secure Login** - Bank-grade security with better-auth framework
+- **Quick Signup** - Seamless account creation with email verification
+- **Social Login Options** - Multiple authentication methods available
+- **Session Management** - Secure session handling with automatic timeouts
+
+### Protected Content Access
+When you try to access protected areas without authentication, RightStockAI presents a login interface that:
+- Prompts you to sign up or sign in
+- Provides clear value proposition for creating an account
+- Offers the 14-day free trial to explore full features
+- Maintains security while encouraging user engagement
+
 ## Platform Layout Overview
 
 RightStockAI uses a clean, intuitive design that works seamlessly across desktop, tablet, and mobile devices.
 
 ### Desktop Layout
-```
-┌─────────────────────────────────────────────────┐
-│ Header Bar (Navigation, Search, User Menu)      │
-├─────────────────────────────────────────────────┤
-│                                                 │
-│ Main Content Area                               │
-│                                                 │
-│ - Dashboard widgets                             │
-│ - Analysis tools                                │
-│ - Portfolio views                               │
-│                                                 │
-├─────────────────────────────────────────────────┤
-│ Footer (Links, Copyright)                       │
-└─────────────────────────────────────────────────┘
-```
+
+![Desktop Dashboard Interface](../images/dashboard-desktop.png)
+*RightStockAI desktop dashboard showing the full interface with market overview, portfolio widgets, and navigation*
 
 ### Mobile Layout
+
+![Mobile Dashboard Interface](../images/dashboard-mobile.png)
+*RightStockAI mobile dashboard optimized for touch interactions with responsive design*
+
 On mobile devices, the layout adapts:
 - Header collapses to hamburger menu
 - Content stacks vertically

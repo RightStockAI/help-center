@@ -13,6 +13,10 @@ Complete your RightStockAI account setup to personalize your experience and opti
 ### Creating Your Account
 
 **Step 1: Sign Up**
+
+![RightStockAI Signup Page](../images/rightstockai-signup.png)
+*RightStockAI signup page showing the account creation interface*
+
 1. Visit [RightStockAI Sign Up](https://www.rightstockai.com/signup)
 2. Enter your email address
 3. Create a strong password
