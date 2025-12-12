@@ -5,16 +5,22 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'RightStockAI Help Center',
+  title: 'RightStockAI Documentation',
   tagline: 'AI-Powered Stock Analysis for Indian Markets',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://help.rightstockai.com',
-  baseUrl: '/',
-
-  organizationName: 'rightstockai',
-  projectName: 'help-center',
+  url: 'https://rightstockai.github.io',
+  
+  // Set the /<baseUrl>/ pathname under which your site is served
+  baseUrl: '/help-center/',
+  
+  // GitHub pages deployment config
+  organizationName: 'RightStockAI', // Your GitHub org/user name
+  projectName: 'help-center', // Your repo name
+  
+  deploymentBranch: 'gh-pages', // The branch GitHub Pages will use
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   markdown: {
