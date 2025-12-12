@@ -1,15 +1,17 @@
 /**
- * Beautiful Pricing Page Styling
- * Matching main app design
+ * Optimized Pricing Page Styling
+ * Clean, practical CSS that works reliably
  */
 
 /* ============================================
    PRICING HERO SECTION
    ============================================ */
 
-article h1:has-text("Subscription Plans") {
+/* Main heading styling */
+.pricing-hero h1 {
   text-align: center;
   font-size: 3rem;
+  font-weight: 800;
   background: linear-gradient(135deg, rgb(29, 78, 216), rgb(147, 51, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -17,11 +19,15 @@ article h1:has-text("Subscription Plans") {
   margin-bottom: 1rem;
 }
 
-article h1 + p {
+/* Subtitle styling */
+.pricing-hero p {
   text-align: center;
   font-size: 1.25rem;
   color: var(--ifm-color-emphasis-700);
   margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ============================================
@@ -29,12 +35,7 @@ article h1 + p {
    ============================================ */
 
 /* Container for pricing cards */
-article h2:has-text("Available Plans") + h3 {
-  display: none; /* Hide h3 headings */
-}
-
-/* Auto-convert plan sections into cards */
-.pricing-container {
+.pricing-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
@@ -52,6 +53,7 @@ article h2:has-text("Available Plans") + h3 {
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .pricing-card:hover {
@@ -90,6 +92,7 @@ article h2:has-text("Available Plans") + h3 {
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
   color: var(--ifm-heading-color);
+  font-weight: 700;
 }
 
 .pricing-card .tagline {
@@ -101,6 +104,7 @@ article h2:has-text("Available Plans") + h3 {
 /* Price section */
 .pricing-card .price {
   margin: 1.5rem 0;
+  text-align: center;
 }
 
 .pricing-card .price .amount {
@@ -143,6 +147,7 @@ article h2:has-text("Available Plans") + h3 {
   align-items: start;
   gap: 0.75rem;
   border-bottom: 1px solid var(--ifm-color-emphasis-100);
+  font-size: 0.95rem;
 }
 
 .pricing-card ul li:last-child {
@@ -179,6 +184,7 @@ article h2:has-text("Available Plans") + h3 {
   text-decoration: none;
   transition: all 0.3s ease;
   border: none;
+  cursor: pointer;
 }
 
 .pricing-card .cta-button:hover {
@@ -214,90 +220,79 @@ article h2:has-text("Available Plans") + h3 {
    COMPARISON TABLE
    ============================================ */
 
-article table {
+.comparison-table {
   margin: 3rem 0;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  background: var(--ifm-card-background-color);
 }
 
-article table thead {
+.comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.comparison-table thead {
   background: linear-gradient(135deg, rgb(59, 130, 246), rgb(99, 102, 241));
 }
 
-article table th {
+.comparison-table th {
   padding: 1.25rem;
   font-weight: 700;
   color: white;
   text-align: center;
   font-size: 1.125rem;
+  border: none;
 }
 
-article table td {
+.comparison-table td {
   padding: 1rem 1.25rem;
   text-align: center;
   border-bottom: 1px solid var(--ifm-color-emphasis-100);
 }
 
-article table td:first-child {
+.comparison-table td:first-child {
   text-align: left;
   font-weight: 600;
 }
 
-article table tbody tr:hover {
+.comparison-table tbody tr:hover {
   background: rgba(59, 130, 246, 0.05);
 }
 
 /* Checkmarks and features in table */
-article table td:has-text("✅") {
+.comparison-table .check-yes {
   color: rgb(34, 197, 94);
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
-article table td:has-text("❌") {
+.comparison-table .check-no {
   color: rgb(239, 68, 68);
   font-size: 1.5rem;
   opacity: 0.5;
 }
 
-article table td:has-text("Unlimited") {
+.comparison-table .unlimited {
   color: rgb(168, 85, 247);
   font-weight: 700;
 }
 
 /* ============================================
-   FAQ SECTION
-   ============================================ */
-
-.faq-section {
-  margin: 4rem 0;
-  padding: 3rem;
-  background: rgba(59, 130, 246, 0.03);
-  border-radius: 16px;
-}
-
-.faq-section h2 {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.faq-item {
-  margin-bottom: 1.5rem;
-  padding: 1.5rem;
-  background: var(--ifm-card-background-color);
-  border-radius: 12px;
-  border: 1px solid var(--ifm-color-emphasis-200);
-}
-
-.faq-item h3 {
-  font-size: 1.125rem;
-  margin-bottom: 0.75rem;
-  color: var(--ifm-color-primary);
-}
-
-/* ============================================
    SPECIAL OFFERS SECTION
    ============================================ */
+
+.offers-section {
+  margin: 3rem 0;
+}
+
+.offers-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
 
 .offers-grid {
   display: grid;
@@ -322,6 +317,7 @@ article table td:has-text("Unlimited") {
   gap: 0.5rem;
   font-size: 1.25rem;
   margin-bottom: 1rem;
+  color: var(--ifm-heading-color);
 }
 
 /* ============================================
@@ -347,11 +343,129 @@ article table td:has-text("Unlimited") {
 }
 
 /* ============================================
+   FAQ SECTION
+   ============================================ */
+
+.faq-section {
+  margin: 4rem 0;
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.faq-section details {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background: var(--ifm-card-background-color);
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.faq-section summary {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-section summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-section summary::after {
+  content: '▼';
+  float: right;
+  transition: transform 0.3s ease;
+}
+
+.faq-section details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.faq-section p {
+  margin-top: 1rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+}
+
+/* ============================================
+   CTA SECTION
+   ============================================ */
+
+.pricing-cta {
+  text-align: center;
+  margin: 4rem 0;
+  padding: 3rem;
+  background: var(--ifm-color-emphasis-50);
+  border-radius: 16px;
+}
+
+.pricing-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-heading-color);
+}
+
+.pricing-cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+
+.pricing-cta-buttons .button {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  min-width: 160px;
+  text-align: center;
+}
+
+.pricing-cta-buttons .button--primary {
+  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(37, 99, 235));
+  color: white;
+}
+
+.pricing-cta-buttons .button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.pricing-cta-buttons .button--secondary {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  color: rgb(37, 99, 235);
+}
+
+.pricing-cta-buttons .button--secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2);
+  color: rgb(37, 99, 235);
+  text-decoration: none;
+}
+
+.pricing-cta-note {
+  margin-top: 1rem;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9rem;
+}
+
+/* ============================================
    RESPONSIVE
    ============================================ */
 
 @media (max-width: 996px) {
-  .pricing-container {
+  .pricing-grid {
     grid-template-columns: 1fr;
   }
   
@@ -359,7 +473,16 @@ article table td:has-text("Unlimited") {
     font-size: 2.5rem;
   }
   
-  article h1:has-text("Subscription Plans") {
+  .pricing-hero h1 {
     font-size: 2rem;
+  }
+  
+  .pricing-cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .offers-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -10,7 +10,7 @@ import styles from '@site/src/css/pricing.css';
 
 Choose the plan that best fits your investment needs and analysis requirements.
 
-<div className="pricing-container">
+<div className="pricing-grid">
 
 <div className="pricing-card free">
   <h3>Free Plan</h3>
@@ -114,23 +114,31 @@ Choose the plan that best fits your investment needs and analysis requirements.
 
 ## 📊 Detailed Comparison
 
+<div className="comparison-table">
+
 | Feature | Free | Pro | Premium |
 |---------|:----:|:---:|:-------:|
 | **Monthly Price** | ₹0 | ₹399 | ₹1,299 |
 | **Users** | 1 | 1 | 5 |
-| **AI Stock Analysis** | 5/day | 50/day | ∞ Unlimited |
-| **Traditional Analysis** | 10/day | 200/day | ∞ Unlimited |
-| **AI Portfolio Analysis** | ❌ | 20/day | ∞ Unlimited |
-| **Charts & Indicators** | 10/day | 200/day | ∞ Unlimited |
-| **Data Export** | 5/day | 50/day | ∞ Unlimited |
-| **Custom Alerts** | ❌ | ✅ | ✅ |
+| **AI Stock Analysis** | 5/day | 50/day | <span className="unlimited">∞ Unlimited</span> |
+| **Traditional Analysis** | 10/day | 200/day | <span className="unlimited">∞ Unlimited</span> |
+| **AI Portfolio Analysis** | <span className="check-no">❌</span> | 20/day | <span className="unlimited">∞ Unlimited</span> |
+| **Charts & Indicators** | 10/day | 200/day | <span className="unlimited">∞ Unlimited</span> |
+| **Data Export** | 5/day | 50/day | <span className="unlimited">∞ Unlimited</span> |
+| **Custom Alerts** | <span className="check-no">❌</span> | <span className="check-yes">✅</span> | <span className="check-yes">✅</span> |
 | **Priority Support** | Standard | 6-12 hrs | 2-4 hrs |
-| **API Access** | ❌ | ❌ | ✅ |
-| **Dedicated Manager** | ❌ | ❌ | ✅ |
+| **API Access** | <span className="check-no">❌</span> | <span className="check-no">❌</span> | <span className="check-yes">✅</span> |
+| **Dedicated Manager** | <span className="check-no">❌</span> | <span className="check-no">❌</span> | <span className="check-yes">✅</span> |
+
+</div>
 
 ---
 
 ## 💰 Special Offers
+
+<div className="offers-section">
+
+<h2>Exclusive Discounts</h2>
 
 <div className="offers-grid">
 
@@ -164,6 +172,8 @@ Choose the plan that best fits your investment needs and analysis requirements.
 
 </div>
 
+</div>
+
 ---
 
 <div className="guarantee-section">
@@ -174,6 +184,10 @@ Choose the plan that best fits your investment needs and analysis requirements.
 ---
 
 ## ❓ Frequently Asked Questions
+
+<div className="faq-section">
+
+<h2>Common Questions</h2>
 
 <details>
 <summary><strong>Can I upgrade or downgrade anytime?</strong></summary>
@@ -195,6 +209,8 @@ Choose the plan that best fits your investment needs and analysis requirements.
 <p>No, 18% GST is added at checkout. You'll receive a GST invoice instantly.</p>
 </details>
 
+</div>
+
 ---
 
 ## 📞 Need Help Choosing?
@@ -207,17 +223,17 @@ Choose the plan that best fits your investment needs and analysis requirements.
 
 ---
 
-<div style={{textAlign: 'center', margin: '3rem 0'}}>
+<div className="pricing-cta">
   <h2>Ready to get started?</h2>
-  <div style={{display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap', marginTop: '1.5rem'}}>
-    <a href="https://www.rightstockai.com/subscription" className="button button--primary button--lg">
+  <div className="pricing-cta-buttons">
+    <a href="https://www.rightstockai.com/subscription" className="button button--primary">
       Start Free Trial
     </a>
-    <a href="https://www.rightstockai.com/signup" className="button button--secondary button--lg">
+    <a href="https://www.rightstockai.com/signup" className="button button--secondary">
       Sign Up Free
     </a>
   </div>
-  <p style={{marginTop: '1rem', color: 'var(--ifm-color-emphasis-600)', fontSize: '0.9rem'}}>
+  <p className="pricing-cta-note">
     No credit card required · Cancel anytime · 7-day money-back guarantee
   </p>
 </div>
