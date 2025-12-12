@@ -116,19 +116,84 @@ Choose the plan that best fits your investment needs and analysis requirements.
 
 <div className="comparison-table">
 
-| Feature | Free | Pro | Premium |
-|---------|:----:|:---:|:-------:|
-| **Monthly Price** | ₹0 | ₹399 | ₹1,299 |
-| **Users** | 1 | 1 | 5 |
-| **AI Stock Analysis** | 5/day | 50/day | <span className="unlimited">∞ Unlimited</span> |
-| **Traditional Analysis** | 10/day | 200/day | <span className="unlimited">∞ Unlimited</span> |
-| **AI Portfolio Analysis** | <span className="check-no">❌</span> | 20/day | <span className="unlimited">∞ Unlimited</span> |
-| **Charts & Indicators** | 10/day | 200/day | <span className="unlimited">∞ Unlimited</span> |
-| **Data Export** | 5/day | 50/day | <span className="unlimited">∞ Unlimited</span> |
-| **Custom Alerts** | <span className="check-no">❌</span> | <span className="check-yes">✅</span> | <span className="check-yes">✅</span> |
-| **Priority Support** | Standard | 6-12 hrs | 2-4 hrs |
-| **API Access** | <span className="check-no">❌</span> | <span className="check-no">❌</span> | <span className="check-yes">✅</span> |
-| **Dedicated Manager** | <span className="check-no">❌</span> | <span className="check-no">❌</span> | <span className="check-yes">✅</span> |
+<table style={{width: '100%', borderCollapse: 'collapse', margin: 0}}>
+  <thead>
+    <tr>
+      <th style={{padding: '1.25rem 1rem', fontWeight: '700', color: 'white', textAlign: 'center', background: 'linear-gradient(135deg, rgb(59, 130, 246), rgb(99, 102, 241))', border: 'none', width: '40%'}}>Feature</th>
+      <th style={{padding: '1.25rem 1rem', fontWeight: '700', color: 'white', textAlign: 'center', background: 'linear-gradient(135deg, rgb(59, 130, 246), rgb(99, 102, 241))', border: 'none', width: '20%'}}>Free</th>
+      <th style={{padding: '1.25rem 1rem', fontWeight: '700', color: 'white', textAlign: 'center', background: 'linear-gradient(135deg, rgb(59, 130, 246), rgb(99, 102, 241))', border: 'none', width: '20%'}}>Pro</th>
+      <th style={{padding: '1.25rem 1rem', fontWeight: '700', color: 'white', textAlign: 'center', background: 'linear-gradient(135deg, rgb(59, 130, 246), rgb(99, 102, 241))', border: 'none', width: '20%'}}>Premium</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style={{padding: '1rem', textAlign: 'left', fontWeight: '600', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>Monthly Price</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>₹0</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>₹399</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>₹1,299</td>
+    </tr>
+    <tr>
+      <td style={{padding: '1rem', textAlign: 'left', fontWeight: '600', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>Users</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>1</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>1</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>5</td>
+    </tr>
+    <tr>
+      <td style={{padding: '1rem', textAlign: 'left', fontWeight: '600', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>AI Stock Analysis</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>5/day</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>50/day</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(168, 85, 247)', fontWeight: '700'}}><strong>∞ Unlimited</strong></td>
+    </tr>
+    <tr>
+      <td style={{padding: '1rem', textAlign: 'left', fontWeight: '600', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>Traditional Analysis</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>10/day</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>200/day</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(168, 85, 247)', fontWeight: '700'}}><strong>∞ Unlimited</strong></td>
+    </tr>
+    <tr>
+      <td style={{padding: '1rem', textAlign: 'left', fontWeight: '600', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>AI Portfolio Analysis</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(239, 68, 68)'}}>❌</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>20/day</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(168, 85, 247)', fontWeight: '700'}}><strong>∞ Unlimited</strong></td>
+    </tr>
+    <tr>
+      <td style={{padding: '1rem', textAlign: 'left', fontWeight: '600', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>Charts & Indicators</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>10/day</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>200/day</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(168, 85, 247)', fontWeight: '700'}}><strong>∞ Unlimited</strong></td>
+    </tr>
+    <tr>
+      <td style={{padding: '1rem', textAlign: 'left', fontWeight: '600', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>Data Export</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>5/day</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>50/day</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(168, 85, 247)', fontWeight: '700'}}><strong>∞ Unlimited</strong></td>
+    </tr>
+    <tr>
+      <td style={{padding: '1rem', textAlign: 'left', fontWeight: '600', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>Custom Alerts</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(239, 68, 68)'}}>❌</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(34, 197, 94)'}}>✅</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(34, 197, 94)'}}>✅</td>
+    </tr>
+    <tr>
+      <td style={{padding: '1rem', textAlign: 'left', fontWeight: '600', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>Priority Support</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-emphasis-100)'}}>Standard</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>6-12 hrs</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>2-4 hrs</td>
+    </tr>
+    <tr>
+      <td style={{padding: '1rem', textAlign: 'left', fontWeight: '600', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>API Access</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(239, 68, 68)'}}>❌</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(239, 68, 68)'}}>❌</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(34, 197, 94)'}}>✅</td>
+    </tr>
+    <tr>
+      <td style={{padding: '1rem', textAlign: 'left', fontWeight: '600', borderBottom: '1px solid var(--ifm-color-emphasis-100)'}}>Dedicated Manager</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(239, 68, 68)'}}>❌</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(239, 68, 68)'}}>❌</td>
+      <td style={{padding: '1rem', textAlign: 'center', borderBottom: '1px solid var(--ifm-color-emphasis-100)', color: 'rgb(34, 197, 94)'}}>✅</td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
 

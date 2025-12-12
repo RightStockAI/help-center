@@ -80,11 +80,13 @@
   transform: translateX(-50%);
   background: linear-gradient(135deg, rgb(59, 130, 246), rgb(99, 102, 241));
   color: white;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.25rem;
   border-radius: 9999px;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  min-width: fit-content;
 }
 
 /* Plan header */
@@ -171,20 +173,29 @@
 
 /* CTA Button */
 .pricing-card .cta-button {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  padding: 1rem;
+  padding: 0.75rem 1.5rem;
   margin-top: 1.5rem;
-  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(37, 99, 235));
-  color: white;
+  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(37, 99, 235)) !important;
+  color: white !important;
   text-align: center;
   border-radius: 12px;
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: 1rem;
   text-decoration: none;
   transition: all 0.3s ease;
   border: none;
   cursor: pointer;
+  position: relative;
+  z-index: 50;
+  line-height: 1;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .pricing-card .cta-button:hover {
@@ -194,8 +205,17 @@
   text-decoration: none;
 }
 
+.pricing-card .cta-button * {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: inherit;
+  color: inherit;
+}
+
 .pricing-card.popular .cta-button {
-  background: linear-gradient(135deg, rgb(99, 102, 241), rgb(139, 92, 246));
+  background: linear-gradient(135deg, rgb(99, 102, 241), rgb(139, 92, 246)) !important;
 }
 
 /* Free plan special styling */
@@ -204,7 +224,7 @@
 }
 
 .pricing-card.free .cta-button {
-  background: linear-gradient(135deg, rgb(34, 197, 94), rgb(22, 163, 74));
+  background: linear-gradient(135deg, rgb(34, 197, 94), rgb(22, 163, 74)) !important;
 }
 
 /* Premium plan special styling */
@@ -213,7 +233,7 @@
 }
 
 .pricing-card.premium .cta-button {
-  background: linear-gradient(135deg, rgb(168, 85, 247), rgb(139, 92, 246));
+  background: linear-gradient(135deg, rgb(168, 85, 247), rgb(139, 92, 246)) !important;
 }
 
 /* ============================================
@@ -226,12 +246,53 @@
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   background: var(--ifm-card-background-color);
+  overflow-x: auto;
+  width: 100%;
 }
 
 .comparison-table table {
   width: 100%;
   border-collapse: collapse;
   margin: 0;
+  table-layout: fixed;
+}
+
+/* Ensure the table content stretches to fill available space */
+.comparison-table table colgroup col:first-child {
+  width: 40%;
+}
+
+.comparison-table table colgroup col:nth-child(2) {
+  width: 20%;
+}
+
+.comparison-table table colgroup col:nth-child(3) {
+  width: 20%;
+}
+
+.comparison-table table colgroup col:nth-child(4) {
+  width: 20%;
+}
+
+/* Column width distribution */
+.comparison-table th:first-child,
+.comparison-table td:first-child {
+  width: 35%; /* Feature column takes more space */
+}
+
+.comparison-table th:nth-child(2),
+.comparison-table td:nth-child(2) {
+  width: 21.67%; /* Free column */
+}
+
+.comparison-table th:nth-child(3),
+.comparison-table td:nth-child(3) {
+  width: 21.67%; /* Pro column */
+}
+
+.comparison-table th:nth-child(4),
+.comparison-table td:nth-child(4) {
+  width: 21.67%; /* Premium column */
 }
 
 .comparison-table thead {
@@ -239,45 +300,51 @@
 }
 
 .comparison-table th {
-  padding: 1.25rem;
+  padding: 1.25rem 1rem;
   font-weight: 700;
   color: white;
   text-align: center;
-  font-size: 1.125rem;
+  font-size: 1rem;
   border: none;
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .comparison-table td {
-  padding: 1rem 1.25rem;
+  padding: 1rem;
   text-align: center;
   border-bottom: 1px solid var(--ifm-color-emphasis-100);
+  vertical-align: middle;
+  font-size: 0.95rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .comparison-table td:first-child {
   text-align: left;
   font-weight: 600;
+  padding-left: 1.5rem;
 }
 
 .comparison-table tbody tr:hover {
   background: rgba(59, 130, 246, 0.05);
 }
 
-/* Checkmarks and features in table */
-.comparison-table .check-yes {
-  color: rgb(34, 197, 94);
-  font-size: 1.5rem;
+/* Enhanced styling for table content */
+.comparison-table strong {
+  color: rgb(168, 85, 247);
+  font-weight: 700;
+}
+
+.comparison-table em {
+  color: rgb(239, 68, 68);
+  font-style: normal;
   font-weight: bold;
 }
 
-.comparison-table .check-no {
-  color: rgb(239, 68, 68);
-  font-size: 1.5rem;
-  opacity: 0.5;
-}
-
-.comparison-table .unlimited {
-  color: rgb(168, 85, 247);
-  font-weight: 700;
+.comparison-table .emoji {
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-right: 0.25rem;
 }
 
 /* ============================================
@@ -418,40 +485,96 @@
 }
 
 .pricing-cta-buttons .button {
-  padding: 1rem 2rem;
-  font-size: 1.125rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
   text-decoration: none;
   transition: all 0.3s ease;
-  display: inline-block;
-  min-width: 160px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  position: relative;
+  z-index: 50;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  line-height: 1;
   text-align: center;
+  height: auto;
 }
 
-.pricing-cta-buttons .button--primary {
-  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(37, 99, 235));
-  color: white;
+/* Target the actual Docusaurus button classes used in pricing CTA */
+.pricing-cta-buttons .button.button--primary,
+.pricing-cta-buttons .button.button--secondary {
+  padding: 0.75rem 1.5rem !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  border-radius: 0.5rem !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 140px;
+  position: relative !important;
+  z-index: 50 !important;
+  cursor: pointer !important;
+  border: none !important;
+  outline: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  line-height: 1 !important;
+  text-align: center !important;
+  height: auto !important;
+  /* Ensure text color is preserved */
+  color: inherit !important;
 }
 
-.pricing-cta-buttons .button--primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
-  color: white;
-  text-decoration: none;
+/* Target the text content within the buttons */
+.pricing-cta-buttons .button.button--primary *,
+.pricing-cta-buttons .button.button--secondary * {
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+  line-height: inherit !important;
+  color: inherit !important;
 }
 
-.pricing-cta-buttons .button--secondary {
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(59, 130, 246, 0.2);
-  color: rgb(37, 99, 235);
+.pricing-cta-buttons .button.button--primary {
+  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(37, 99, 235)) !important;
+  color: white !important;
 }
 
-.pricing-cta-buttons .button--secondary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2);
-  color: rgb(37, 99, 235);
-  text-decoration: none;
+.pricing-cta-buttons .button.button--primary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3) !important;
+  color: white !important;
+  text-decoration: none !important;
+  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(37, 99, 235)) !important;
+}
+
+.pricing-cta-buttons .button.button--secondary {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(59, 130, 246, 0.2) !important;
+  color: rgb(37, 99, 235) !important;
+}
+
+.pricing-cta-buttons .button.button--secondary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2) !important;
+  color: rgb(37, 99, 235) !important;
+  text-decoration: none !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid rgba(59, 130, 246, 0.3) !important;
 }
 
 .pricing-cta-note {
@@ -484,5 +607,42 @@
   
   .offers-grid {
     grid-template-columns: 1fr;
+  }
+  
+  /* Enhanced mobile table responsiveness */
+  .comparison-table {
+    margin: 2rem 0;
+    border-radius: 12px;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .comparison-table th {
+    font-size: 0.9rem;
+  }
+  
+  .comparison-table td:first-child {
+    min-width: 120px;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .comparison-table {
+    font-size: 0.8rem;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.5rem 0.25rem;
+  }
+  
+  .comparison-table td:first-child {
+    font-size: 0.75rem;
+    min-width: 100px;
   }
 }

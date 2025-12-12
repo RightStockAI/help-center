@@ -9,6 +9,7 @@ const sidebars: SidebarsConfig = {
       label: '🚀 Getting Started',
       collapsed: false,
       items: [
+        'getting-started/introduction',
         'getting-started/account-setup',
         'getting-started/dashboard',
         'getting-started/navigation',
