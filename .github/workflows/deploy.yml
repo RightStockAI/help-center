@@ -9,6 +9,10 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,8 +29,16 @@ jobs:
       - name: Build site
         run: npm run build
       
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './build'
+      
       - name: Deploy to GitHub Pages
-        run: npm run deploy
-        env:
-          GIT_USER: github-actions[bot]
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: 'github-pages'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
