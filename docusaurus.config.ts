@@ -131,7 +131,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} RightStockAI. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://www.rightstockai.com" target="_blank" rel="noopener noreferrer">RightStockAI</a>. Built with Docusaurus.`,
     },
 
     prism: {

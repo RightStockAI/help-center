@@ -166,12 +166,60 @@
   margin-bottom: 2.5rem;
 }
 
+/* All buttons in .buttons containers */
 .buttons .button {
   padding: 0.875rem 2rem;
   font-size: 1.125rem;
   font-weight: 600;
   border-radius: 0.75rem;
   transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  min-width: 140px;
+  text-align: center;
+  border: none;
+  outline: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Ensure link buttons work properly */
+.buttons a.button {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buttons a.button:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.buttons a.button:focus {
+  outline: 2px solid rgb(59, 130, 246);
+  outline-offset: 2px;
+}
+
+/* Primary and secondary button specific styles */
+.buttons .button--primary {
+  background: linear-gradient(135deg, rgb(59, 130, 246), rgb(37, 99, 235));
+  color: white;
+}
+
+.buttons .button--secondary {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  color: rgb(37, 99, 235);
+}
+
+[data-theme='dark'] .buttons .button--secondary {
+  background: rgba(31, 41, 55, 0.9);
+  border-color: rgba(59, 130, 246, 0.3);
+  color: rgb(147, 197, 253);
 }
 
 .buttons .button--primary {

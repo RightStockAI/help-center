@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+title: Subscription Plans
+description: Choose the right plan for your investment analysis needs
 ---
 
 # Subscription Plans
