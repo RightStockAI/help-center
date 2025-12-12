@@ -44,7 +44,10 @@ const config: Config = {
         },
         blog: false, // Disable blog
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            './src/css/custom.css',
+            './src/css/pricing.css',
+          ],
         },
       } satisfies Preset.Options,
     ],
