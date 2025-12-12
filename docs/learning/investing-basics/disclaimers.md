@@ -1,8 +1,8 @@
-***
+---
 sidebar_position: 4
 title: Important Disclaimers
 description: Legal and regulatory disclaimers for RightStockAI
-***
+---
 
 # Important Disclaimers
 

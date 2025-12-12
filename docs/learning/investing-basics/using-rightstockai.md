@@ -1,8 +1,8 @@
-***
+---
 sidebar_position: 3
 title: Using RightStockAI Effectively
 description: Maximize the benefits of RightStockAI platform
-***
+---
 
 # Using RightStockAI Effectively
 

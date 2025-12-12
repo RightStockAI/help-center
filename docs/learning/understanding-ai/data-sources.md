@@ -1,8 +1,8 @@
-***
+---
 sidebar_position: 4
 title: AI Data Sources
 description: Learn where RightStockAI gets its market data and analysis inputs
-***
+---
 
 # AI Data Sources
 

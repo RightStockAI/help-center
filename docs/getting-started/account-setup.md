@@ -1,8 +1,8 @@
-***
+---
 sidebar_position: 4
 title: Account Setup and Preferences
 description: Customize your RightStockAI account and preferences
-***
+---
 
 # Account Setup and Preferences
 
@@ -359,6 +359,6 @@ With your account set up:
 2. **[Create Portfolio](/features/portfolio-management)** - Start tracking investments
 3. **[Advanced Features](/features/stock-analysis)** - Explore full capabilities
 
-***
+---
 
 **Tip:** Review your settings quarterly to ensure they match your current needs and preferences.

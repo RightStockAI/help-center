@@ -1,8 +1,8 @@
-***
+---
 sidebar_position: 1
 title: How AI Works
 description: Understand the technology behind RightStockAI's predictions
-***
+---
 
 # How AI Works
 

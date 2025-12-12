@@ -1,8 +1,8 @@
-***
+---
 sidebar_position: 2
 title: Navigating RightStockAI
 description: Learn how to navigate the RightStockAI platform effectively
-***
+---
 
 # Navigating RightStockAI
 
@@ -281,6 +281,6 @@ Now that you know how to navigate:
 2. **[Account Setup](/getting-started/account-setup)** - Customize your experience
 3. **[Stock Analysis Overview](/features/stock-analysis)** - Deep dive into analysis tools
 
-***
+---
 
 **Navigation Tips:** Use the search bar for instant access to any feature or stock.

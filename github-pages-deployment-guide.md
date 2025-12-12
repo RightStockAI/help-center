@@ -2,7 +2,7 @@
 
 ## ✅ Configuration Completed
 
-Your Docusaurus site has been successfully configured for GitHub Pages deployment with the following updates:
+Your Docusaurus site has been successfully configured for custom domain GitHub Pages deployment with the following updates:
 
 ### docusaurus.config.ts Changes
 ```typescript
@@ -11,9 +11,9 @@ const config: Config = {
   tagline: 'AI-Powered Stock Analysis for Indian Markets',
   favicon: 'img/favicon.ico',
 
-  // GitHub Pages configuration
-  url: 'https://rightstockai.github.io',
-  baseUrl: '/help-center/',
+  // Custom domain GitHub Pages configuration
+  url: 'https://help.rightstockai.com',
+  baseUrl: '/',  // ✅ Correct for custom domain
   organizationName: 'RightStockAI',
   projectName: 'help-center',
   deploymentBranch: 'gh-pages',
@@ -39,9 +39,20 @@ The deploy script is already configured:
 }
 ```
 
+## 🚀 Deployment Process
+
+### Important: Why `npm run deploy` Failed
+
+When you ran `npm run deploy` locally, it failed with:
+```
+fatal: Remote branch gh-pages not found in upstream origin
+```
+
+**This is expected!** The `gh-pages` branch doesn't exist yet. The GitHub Actions workflow will create this branch automatically on the first run.
+
 ## 🚀 Deployment Options
 
-### Option 1: Using GitHub Personal Access Token (Recommended)
+### Option 1: Using GitHub Actions (Recommended - Already Set Up ✅)
 
 1. **Set Environment Variables:**
    ```bash
@@ -63,8 +74,9 @@ The deploy script is already configured:
 - Uses the built-in `GITHUB_TOKEN` for authentication
 - Installs dependencies, builds the site, and deploys to GitHub Pages
 
-**Next Steps:**
-1. **Commit and push** the workflow file:
+**Steps to Complete Setup:**
+
+1. **Commit and push the workflow file:**
    ```bash
    git add .github/workflows/deploy.yml
    git commit -m "Add GitHub Actions workflow for automatic deployment"
@@ -75,7 +87,21 @@ The deploy script is already configured:
    - Go to your repository settings on GitHub
    - Navigate to "Pages" section
    - Set Source to "GitHub Actions"
-   - The workflow will automatically deploy your site on the next push
+
+3. **Wait for First Deployment:**
+   - The workflow will automatically start (check the "Actions" tab)
+   - It will create the `gh-pages` branch and deploy your site
+   - This happens automatically - no manual deployment needed!
+
+**Important:** You do NOT need to run `npm run deploy` manually. The GitHub Actions workflow handles everything automatically.
+
+### 🔧 Workflow Updated
+
+I've updated the workflow to use GitHub's modern Pages deployment method:
+- Uses `actions/upload-pages-artifact` and `actions/deploy-pages`
+- No longer depends on creating a `gh-pages` branch manually
+- More reliable and faster deployment
+- Better error handling
 
 ### Option 3: Manual Deployment with SSH
 

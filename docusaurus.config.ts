@@ -10,10 +10,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://rightstockai.github.io',
+  url: 'https://help.rightstockai.com',
   
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/help-center/',
+  baseUrl: '/',
   
   // GitHub pages deployment config
   organizationName: 'RightStockAI', // Your GitHub org/user name

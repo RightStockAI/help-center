@@ -1,8 +1,8 @@
-***
+---
 sidebar_position: 1
 title: Smart Investing Principles
 description: Fundamental principles for successful long-term investing
-***
+---
 
 # Smart Investing Principles
 

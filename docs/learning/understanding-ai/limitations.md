@@ -1,8 +1,8 @@
-***
+---
 sidebar_position: 3
 title: AI Limitations
 description: Understand what AI analysis cannot predict or guarantee
-***
+---
 
 # AI Limitations
 

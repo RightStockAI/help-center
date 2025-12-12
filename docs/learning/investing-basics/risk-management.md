@@ -1,8 +1,8 @@
-***
+---
 sidebar_position: 2
 title: Risk Management Strategies
 description: Protect your investments with effective risk management
-***
+---
 
 # Risk Management Strategies
 

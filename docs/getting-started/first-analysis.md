@@ -1,8 +1,8 @@
-***
+---
 sidebar_position: 3
 title: Your First Stock Analysis
 description: Step-by-step guide to analyzing your first stock on RightStockAI
-***
+---
 
 # Your First Stock Analysis
 
@@ -338,6 +338,6 @@ Congratulations on your first analysis! What's next:
 2. **[Stock Analysis Deep Dive](/features/stock-analysis)** - Learn advanced techniques
 3. **[Understanding AI](/learning/understanding-ai/how-ai-works)** - How our AI works
 
-***
+---
 
 **Remember:** This analysis is for educational purposes. Always conduct your own research before making investment decisions.

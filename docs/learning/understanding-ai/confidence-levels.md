@@ -1,8 +1,8 @@
-***
+---
 sidebar_position: 2
 title: Understanding Confidence Levels
 description: Learn how to interpret AI prediction confidence scores
-***
+---
 
 # Understanding Confidence Levels
 
