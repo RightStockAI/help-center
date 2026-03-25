@@ -1,5 +1,7 @@
 ---
 sidebar_position: 5
+title: Market Overview
+description: Stay updated with Indian stock market information, NIFTY 50, Sensex indices, and market trends
 ---
 
 # Market Overview

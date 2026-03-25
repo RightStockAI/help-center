@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+title: Welcome to RightStockAI
+description: Your complete guide to RightStockAI - AI-powered stock analysis platform for Indian markets (NSE, BSE, NIFTY 50, Sensex)
 ---
 
 # Welcome to RightStockAI

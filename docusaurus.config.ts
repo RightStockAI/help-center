@@ -34,6 +34,18 @@ const config: Config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/tags/**'],
+        filename: 'sitemap.xml',
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -43,6 +55,7 @@ const config: Config = {
           routeBasePath: '/', // Docs-only mode
         },
         blog: false, // Disable blog
+        sitemap: false, // Disable default sitemap from preset (using explicit plugin above)
         theme: {
           customCss: [
             './src/css/custom.css',

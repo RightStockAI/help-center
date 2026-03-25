@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+title: Traditional Analysis
+description: Time-tested financial methodologies combined with AI insights for comprehensive stock evaluation
 ---
 
 # Traditional Analysis

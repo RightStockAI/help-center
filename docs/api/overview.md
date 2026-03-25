@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+title: API Overview
+description: RightStockAI API documentation for enterprise customers and developers - programmatic access to stock analysis data
 ---
 
 # API Overview

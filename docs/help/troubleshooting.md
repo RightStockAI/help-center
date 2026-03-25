@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+title: Troubleshooting Guide
+description: Solutions to common problems on RightStockAI including login issues, performance problems, and technical fixes
 ---
 
 # Troubleshooting Guide

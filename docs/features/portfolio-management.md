@@ -1,5 +1,7 @@
 ---
 sidebar_position: 4
+title: Portfolio Management
+description: Track, analyze, and optimize your investment portfolio with AI-powered insights and tools
 ---
 
 # Portfolio Management

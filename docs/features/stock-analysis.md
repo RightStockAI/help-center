@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+title: Stock Analysis
+description: Comprehensive stock analysis using traditional and AI-powered methods for Indian market stocks
 ---
 
 # Stock Analysis

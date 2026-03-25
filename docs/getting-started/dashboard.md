@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+title: Dashboard Overview
+description: Navigate your RightStockAI dashboard - the central hub for stock market activities and AI analysis
 ---
 
 # Dashboard Overview

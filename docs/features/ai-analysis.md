@@ -1,5 +1,7 @@
 ---
 sidebar_position: 3
+title: AI Analysis
+description: Advanced AI-powered stock analysis using machine learning algorithms and 56+ financial metrics
 ---
 
 # AI Analysis
