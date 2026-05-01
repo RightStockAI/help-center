@@ -1,260 +1,180 @@
 ---
 sidebar_position: 2
-title: Risk Management Strategies
-description: Protect your investments with effective risk management
+title: Risk Management Basics
+description: Learn practical risk checks to use with RightStockAI reports, portfolios, watchlists, and chart levels.
 ---
 
-# Risk Management Strategies
+# Risk Management Basics
 
-Effective risk management is crucial for long-term investment success. Learn how to identify, measure, and control investment risks.
+Risk management means deciding what could go wrong before you rely on a report, add a stock to a watchlist, or treat a stock as a portfolio candidate.
 
-## Understanding Risk
+RightStockAI helps you read risk context, but it does not decide your risk tolerance, position size, or financial plan.
 
-### Types of Investment Risk
+## Main Types of Risk
 
-#### Market Risk (Systematic Risk)
-- **Cannot be diversified away**
-- **Affects entire market**
-- **Examples**: Interest rate changes, economic recessions
-- **Management**: Asset allocation, hedging
+### Market Risk
 
-#### Specific Risk (Unsystematic Risk)
-- **Can be diversified away**
-- **Affects individual securities**
-- **Examples**: Company-specific issues, management problems
-- **Management**: Diversification, position sizing
+Market risk affects many stocks at once.
 
-#### Volatility Risk
-- **Price fluctuation risk**
-- **Measured by standard deviation**
-- **Higher volatility = higher risk**
-- **Management**: Risk-adjusted position sizing
+Examples:
 
-### Risk Tolerance Assessment
+- Broad index declines.
+- Interest-rate or inflation concerns.
+- Global market weakness.
+- Sector-wide selling.
 
-#### Conservative Investors
-- **Primary Goal**: Capital preservation
-- **Volatility Tolerance**: Low (5-10% swings)
-- **Time Horizon**: Short to medium-term
-- **Asset Mix**: 70% bonds, 30% stocks
+How RightStockAI can help:
 
-#### Moderate Investors
-- **Primary Goal**: Balanced growth
-- **Volatility Tolerance**: Medium (10-20% swings)
-- **Time Horizon**: Medium-term
-- **Asset Mix**: 50% stocks, 40% bonds, 10% alternatives
+- Check the dashboard and market overview.
+- Compare stock movement with the broader market.
+- Read market and sector context before judging one stock.
 
-#### Aggressive Investors
-- **Primary Goal**: Capital growth
-- **Volatility Tolerance**: High (20-30% swings)
-- **Time Horizon**: Long-term
-- **Asset Mix**: 80% stocks, 20% alternatives
+### Stock-Specific Risk
 
-## Risk Measurement Tools
+Stock-specific risk affects one company more than the whole market.
 
-### Value at Risk (VaR)
-```
-VaR = Maximum expected loss over time period at confidence level
-```
+Examples:
 
-#### Interpretation
-- **95% VaR of 5%** - 95% confident losses won't exceed 5%
-- **Portfolio Impact** - Adjust positions to stay within limits
-- **Stress Testing** - Test extreme scenarios
+- Weak earnings.
+- Debt pressure.
+- Management changes.
+- Regulation or company-specific news.
+- Poor price action after a report.
 
-### Standard Deviation
-```
-Standard Deviation = √[Σ(xi - μ)² / n]
-```
+How RightStockAI can help:
 
-#### Portfolio Volatility
-- **Low SD (&lt;10%)** - Stable, low-risk portfolio
-- **Medium SD (10-20%)** - Moderate volatility
-- **High SD (>20%)** - High volatility, high risk
+- Read Traditional Analysis for company and valuation context.
+- Read AI News for recent catalysts and risk events.
+- Check chart and volume behavior.
 
-### Sharpe Ratio
-```
-Sharpe Ratio = (Return - Risk-Free Rate) / Volatility
-```
+### Portfolio Concentration Risk
 
-#### Risk-Adjusted Performance
-- **> 2.0** - Excellent risk-adjusted returns
-- **1.5-2.0** - Very good performance
-- **1.0-1.5** - Good performance
-- **< 1.0** - Poor risk-adjusted returns
+Concentration risk happens when too much of your portfolio depends on one stock, sector, or theme.
 
-## Risk Control Strategies
+Examples:
 
-### Diversification
+- Too much in one banking stock.
+- Many holdings from the same sector.
+- Several stocks that react to the same event.
 
-#### Asset Class Diversification
-- **Stocks, Bonds, Cash** - Different risk-return profiles
-- **Domestic vs International** - Geographic diversification
-- **Large/Mid/Small Cap** - Market capitalization spread
-- **Growth vs Value** - Style diversification
+How RightStockAI can help:
 
-#### Sector Diversification
-- **Avoid concentration** - No more than 20-25% in one sector
-- **Cyclical vs Defensive** - Balance economic sensitivity
-- **Correlated sectors** - Spread across related industries
-- **Emerging opportunities** - New sector exposure
+- Use portfolio views to review holdings and allocation.
+- Check large holdings first.
+- Compare stock-level reports with portfolio exposure.
 
-### Position Sizing
+### Report Freshness Risk
 
-#### Fixed Percentage Method
-- **1-2% per position** - Conservative approach
-- **2-5% per position** - Moderate risk
-- **5-10% per position** - Aggressive approach
-- **Portfolio limits** - Maximum exposure per holding
+A report can become less useful after new data, news, or price movement.
 
-#### Risk-Based Sizing
-- **Volatility adjustment** - Smaller positions in volatile stocks
-- **Correlation consideration** - Account for portfolio impact
-- **Kelly Criterion** - Mathematical position sizing
-- **Portfolio heat maps** - Visual risk distribution
+Check:
 
-### Stop Loss Orders
+- Report generation date.
+- Market status.
+- Recent price movement.
+- Recent news.
+- Whether portfolio holdings changed after the report.
 
-#### Technical Stops
-- **Percentage stops** - Fixed percentage below entry
-- **Support level stops** - Below key technical levels
-- **Moving average stops** - Below moving averages
-- **Volatility stops** - Based on ATR (Average True Range)
+## Risk Terms You May See
 
-#### Mental Stops
-- **Discipline enforcement** - Pre-determined exit points
-- **Loss limits** - Maximum acceptable loss per trade
-- **Portfolio stops** - Exit all positions at thresholds
-- **Time stops** - Exit after holding periods
+| Term | Simple meaning |
+| --- | --- |
+| Volatility | How sharply price moves up and down. |
+| Drawdown | A fall from a previous high. |
+| Support | A price area where buyers may appear. |
+| Resistance | A price area where sellers may appear. |
+| Invalidation | A level or condition that weakens a chart setup. |
+| Confidence | Signal strength, not certainty. |
+| Concentration | Too much exposure to one stock, sector, or theme. |
+| Liquidity | How actively a stock trades. |
 
-## Portfolio Protection Techniques
+## A Simple Risk Review Flow
 
-### Hedging Strategies
+Use this before treating any report as important:
 
-#### Options Hedging
-- **Protective puts** - Insurance against downside
-- **Collars** - Limited upside for downside protection
-- **Covered calls** - Income generation with limited upside
-- **Spreads** - Complex strategies for specific risks
+1. Confirm the stock name and symbol.
+2. Read the report summary.
+3. Check confidence or score.
+4. Read all caution points.
+5. Check report age.
+6. Review chart movement since the report.
+7. Read recent news if the stock moved sharply.
+8. Check portfolio exposure if you own the stock.
 
-#### Inverse Products
-- **Inverse ETFs** - Profit from market declines
-- **Put options** - Right to sell at predetermined price
-- **Short positions** - Profit from price declines
-- **Pairs trading** - Long one, short correlated asset
+## Reading Risk Notes in Reports
 
-### Cash Management
+Risk notes are not secondary. They often explain the main reason to wait, compare another tool, or reduce confidence in a positive-looking result.
 
-#### Emergency Reserves
-- **3-6 months expenses** - Financial safety net
-- **Liquid investments** - Easy access to funds
-- **Ladder structure** - Staggered maturity dates
-- **Inflation protection** - Maintain purchasing power
+Examples:
 
-#### Tactical Cash
-- **Market timing** - Reduce exposure in uncertain markets
-- **Rebalancing tool** - Cash for portfolio adjustments
-- **Opportunity fund** - Cash for buying opportunities
-- **Risk reduction** - Lower portfolio volatility
+- A bullish report with high volatility needs extra caution.
+- A good company with stretched valuation may not be attractive at any price.
+- A bullish chart pattern with nearby invalidation can fail quickly.
+- Positive news can still be risky if the price has already moved sharply.
 
-## Risk Monitoring
+## Watchlist Risk Habits
 
-### Regular Reviews
+Use watchlists to slow down decisions.
 
-#### Daily Monitoring
-- **Portfolio value** - Track daily changes
-- **Risk metrics** - Monitor VaR and volatility
-- **Position alerts** - Stop loss triggers
-- **News impact** - Breaking developments
+Good habits:
 
-#### Weekly Analysis
-- **Performance review** - Week-over-week changes
-- **Risk assessment** - Current risk levels
-- **Rebalancing check** - Allocation drift
-- **Market conditions** - Broader market analysis
+- Add interesting stocks to a watchlist before acting.
+- Write down why the stock is being watched.
+- Remove names that no longer have a clear reason.
+- Recheck old watchlist ideas after major news or price movement.
 
-#### Monthly Assessment
-- **Comprehensive review** - Full portfolio analysis
-- **Risk limits check** - Ensure compliance
-- **Strategy validation** - Performance vs plan
-- **Adjustment decisions** - Rebalancing and changes
+Avoid:
 
-### Risk Alerts
+- Treating watchlist count as diversification.
+- Keeping too many stocks to review properly.
+- Moving a stock to portfolio status without checking allocation.
 
-#### Automated Alerts
-- **VaR breaches** - Risk limits exceeded
-- **Volatility spikes** - Sudden risk increases
-- **Correlation changes** - Relationship breakdowns
-- **Position drift** - Allocation deviations
+## Portfolio Risk Habits
 
-#### Manual Monitoring
-- **Stress testing** - Regular scenario analysis
-- **Peer comparison** - Risk vs similar portfolios
-- **Benchmark analysis** - Risk vs market indices
-- **Forward testing** - Anticipate future risks
+For portfolio users:
 
-## Advanced Risk Management
+1. Keep holdings accurate.
+2. Review your largest positions first.
+3. Check sector concentration.
+4. Compare stock-level reports with portfolio-level exposure.
+5. Treat saved reports as historical context when holdings change.
+6. Generate a fresh portfolio report when allowed and needed.
 
-### Scenario Analysis
+## Confidence Is Not Risk Control
 
-#### Historical Scenarios
-- **2008 Crisis** - Global financial crisis impact
-- **COVID Crash** - Pandemic market disruption
-- **Dot-com Bubble** - Technology sector collapse
-- **Asian Crisis** - Regional economic crisis
+High confidence can make a report worth reading more closely, but it does not remove risk.
 
-#### Hypothetical Scenarios
-- **Interest Rate Shock** - 300bps rate increase
-- **Inflation Surge** - 5-10% inflation spike
-- **Geopolitical Crisis** - International conflict
-- **Corporate Scandal** - Major company fraud
+Do not assume:
 
-### Monte Carlo Simulation
+- High confidence means guaranteed gain.
+- A target means price must reach that level.
+- A Smart AI verdict replaces portfolio review.
+- A chart pattern removes company or news risk.
 
-#### Simulation Setup
-- **Return distributions** - Historical or assumed returns
-- **Correlation matrix** - Asset relationships
-- **Time horizon** - Investment period
-- **Confidence levels** - Probability assessments
+## When to Slow Down
 
-#### Output Analysis
-- **Probability of success** - Chance of meeting goals
-- **Worst-case scenarios** - Maximum drawdown potential
-- **Best-case outcomes** - Optimal performance
-- **Risk-adjusted paths** - Balanced scenarios
+Pause and recheck when:
 
-## Behavioral Risk Management
+- Confidence is low.
+- Reports disagree.
+- News is changing quickly.
+- The stock has already moved a lot.
+- A report is old.
+- You do not understand why the report is positive or cautious.
+- Your portfolio already has similar exposure.
 
-### Emotional Discipline
+## What RightStockAI Does Not Do
 
-#### Fear Management
-- **Market declines** - Expected in long-term investing
-- **Loss aversion** - Accept losses as part of process
-- **Recovery focus** - Markets historically recover
-- **Plan adherence** - Stick to predetermined strategy
+RightStockAI does not:
 
-#### Greed Control
-- **Overconfidence** - Past success doesn't guarantee future
-- **Chasing returns** - Avoid buying high-performing assets late
-- **Risk creep** - Gradually increasing risk tolerance
-- **Reality checks** - Regular risk assessment
-
-### Decision Framework
-
-#### Risk-First Approach
-1. **Define risk limits** - Maximum acceptable loss
-2. **Assess current risk** - Portfolio risk level
-3. **Evaluate opportunities** - Risk-reward analysis
-4. **Make decisions** - Within risk parameters
-
-#### Goal-Based Risk
-1. **Time horizon** - Longer horizons allow more risk
-2. **Required returns** - Needed to meet goals
-3. **Risk capacity** - Ability to withstand losses
-4. **Risk tolerance** - Willingness to accept risk
+- Decide how much money you should invest.
+- Place trades.
+- Know your full financial situation.
+- Guarantee outcomes.
+- Replace a qualified financial professional.
 
 ## Next Steps
 
-1. **[Using RightStockAI](/learning/investing-basics/using-rightstockai)** - Effective platform usage
-2. **[Disclaimers](/learning/investing-basics/disclaimers)** - Important warnings
-3. **[FAQ](/help/faq)** - Common questions
+- [Using RightStockAI Effectively](/learning/investing-basics/using-rightstockai)
+- [AI Limitations](/learning/understanding-ai/limitations)
+- [Disclaimers](/learning/investing-basics/disclaimers)

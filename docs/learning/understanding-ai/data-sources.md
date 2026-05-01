@@ -1,155 +1,192 @@
 ---
 sidebar_position: 4
 title: AI Data Sources
-description: Learn where RightStockAI gets its market data and analysis inputs
+description: Understand the kinds of information RightStockAI reports may use and how to read data freshness.
 ---
 
 # AI Data Sources
 
-RightStockAI's AI models are powered by comprehensive data from multiple reliable sources. Understanding these data sources helps you appreciate the depth and breadth of our analysis.
+RightStockAI reports are built from available market, stock, financial, news, chart, and portfolio context. This page explains the kinds of information users may see in reports and how to judge whether a result is fresh enough to rely on.
 
-## Primary Market Data
+Not every report uses every input. Always read the specific page you are viewing.
 
-### Price and Volume Data
-- **NSE (National Stock Exchange)** - Real-time and historical price data
-- **BSE (Bombay Stock Exchange)** - Additional market data and indices
-- **NIFTY Indices** - Sector and market index data
-- **Trading Volume** - Daily turnover and participation metrics
+## Main Data Categories
 
-### Corporate Actions
-- **Dividend Announcements** - Cash and stock dividends
-- **Stock Splits/Bonuses** - Corporate restructuring
-- **Mergers & Acquisitions** - Corporate transactions
-- **Rights Issues** - Capital raising activities
+### Price and Volume Context
 
-## Fundamental Data
+Price and volume help reports understand how a stock is moving.
 
-### Financial Statements
-- **Balance Sheets** - Assets, liabilities, equity
-- **Income Statements** - Revenue, expenses, profits
-- **Cash Flow Statements** - Operating, investing, financing cash flows
-- **Quarterly/Annual Reports** - Comprehensive financial disclosures
+Common examples:
 
-### Company Metrics
-- **Market Capitalization** - Company size valuation
-- **P/E Ratios** - Price to earnings multiples
-- **ROE/ROA** - Return on equity/assets
-- **Debt/Equity** - Leverage ratios
+- Latest available price.
+- Daily change and percentage movement.
+- Trading volume.
+- High and low ranges.
+- Chart trend.
+- Support and resistance areas.
 
-## News and Sentiment Data
+How to use it:
 
-### Financial News
-- **Business News Outlets** - Economic Times, Business Standard
-- **Financial Publications** - Bloomberg, Reuters, CNBC
-- **Regulatory Filings** - Company announcements to exchanges
-- **Analyst Reports** - Research from brokerage firms
+- A price move with higher volume may deserve closer review.
+- A price move without volume may be less convincing.
+- A report can become stale when price has moved a lot after it was generated.
 
-### Social Media Sentiment
-- **Twitter Analysis** - Public sentiment on stocks
-- **News Aggregators** - Summarized market news
-- **Forum Discussions** - Investor community opinions
-- **Reddit Analysis** - r/IndiaInvestments and related communities
+### Market and Index Context
 
-## Economic Indicators
+Broad market context helps explain whether a stock is moving alone or with the market.
 
-### Macroeconomic Data
-- **GDP Growth** - Economic expansion rates
-- **Inflation Rates** - CPI and WPI indices
-- **Interest Rates** - RBI policy rates
-- **Currency Exchange** - USD/INR and other pairs
+Examples:
 
-### Sector Data
-- **Industry Performance** - Sector-specific metrics
-- **Supply Chain Data** - Production and inventory levels
-- **Employment Data** - Job creation and unemployment
-- **Trade Data** - Import/export statistics
+- NIFTY 50 or BSE SENSEX direction.
+- BANK NIFTY or sector index movement when available.
+- Market open or closed state.
+- Gainers, losers, and active-volume names.
+- Market breadth such as advances and declines.
 
-## Alternative Data
+How to use it:
 
-### Satellite and Geospatial
-- **Agricultural Data** - Crop yields and weather patterns
-- **Real Estate** - Construction activity and occupancy
-- **Retail Traffic** - Store visits and sales data
-- **Logistics** - Shipping volumes and congestion
+- If the whole market is weak, a single stock's decline may not be company-specific.
+- If a stock rises while the market is weak, it may deserve deeper research.
+- If a whole sector is moving, compare the stock with peers before forming a view.
 
-### Digital Activity
-- **Website Traffic** - Company online presence
-- **App Downloads** - Consumer adoption metrics
-- **Online Reviews** - Product and service feedback
-- **Job Postings** - Company growth indicators
+### Fundamental and Company Context
 
-## Institutional Data
+Fundamental context helps explain the company behind the stock.
 
-### FII/DII Activity
-- **Foreign Institutional Investors** - FII buying/selling
-- **Domestic Institutional Investors** - DII positions
-- **Mutual Fund Flows** - Investment fund activity
-- **Insurance Company Investments** - Long-term institutional holdings
+Examples:
 
-### Insider Trading
-- **Director Transactions** - Company insider buying/selling
-- **Employee Stock Options** - Executive compensation
-- **Shareholding Patterns** - Promoter and institutional holdings
-- **Related Party Transactions** - Connected party dealings
+- Revenue, profit, and margins when available.
+- Valuation ratios.
+- Debt and cash-flow context.
+- Market capitalization.
+- Financial health indicators.
+- Company or business profile information.
 
-## Technical Indicators
+How to use it:
 
-### Price-derived Metrics
-- **Moving Averages** - Trend identification
-- **Momentum Indicators** - RSI, MACD, Stochastic
-- **Volatility Measures** - Bollinger Bands, ATR
-- **Support/Resistance** - Key price levels
+- Strong company context can support a longer-term thesis.
+- Weak financial context can make a strong chart more fragile.
+- Valuation context helps avoid treating every good company as automatically attractive.
 
-### Volume Indicators
-- **Volume Analysis** - Trading activity patterns
-- **Open Interest** - Futures/options positioning
-- **Put/Call Ratio** - Market sentiment indicators
-- **Accumulation/Distribution** - Institutional activity
+### Technical and Chart Context
 
-## Data Quality and Processing
+Technical context helps interpret price structure.
 
-### Data Validation
-- **Source Verification** - Ensuring data accuracy
-- **Cross-referencing** - Multiple source validation
-- **Outlier Detection** - Identifying anomalous data
-- **Gap Filling** - Handling missing data points
+Examples:
 
-### Real-time Processing
-- **Live Data Feeds** - Continuous market updates
-- **Event-driven Updates** - Immediate news incorporation
-- **After-hours Processing** - Non-market hour analysis
-- **Global Market Integration** - International market data
+- Trend direction.
+- Momentum indicators.
+- Moving averages.
+- Support and resistance.
+- Volatility.
+- Chart-pattern setups.
+- Breakout, breakdown, target, and invalidation levels when available.
+
+How to use it:
+
+- Technical context is useful for timing and structure.
+- It should be compared with fundamentals and news.
+- Chart levels are reference points, not guaranteed future prices.
+
+### News and Sentiment Context
+
+News context helps explain recent movement or report disagreement.
+
+Examples:
+
+- Recent company news.
+- Sector news.
+- Earnings or result-related updates.
+- Regulation or policy-related updates.
+- Positive, negative, or mixed sentiment summaries.
+- Catalyst and risk-event notes.
+
+How to use it:
+
+- Recent news can change the meaning of an older report.
+- Repeated articles about the same event should not be treated as many separate catalysts.
+- Thin news coverage means the report may have less context than usual.
+
+### Portfolio Context
+
+Portfolio context is relevant when you use holdings or portfolio analysis tools.
+
+Examples:
+
+- Holdings and quantities.
+- Purchase prices.
+- Allocation by stock or sector.
+- Portfolio value.
+- Saved portfolio reports.
+- Concentration or exposure notes.
+
+How to use it:
+
+- A good stock can still increase portfolio risk if you already own similar stocks.
+- Saved portfolio reports should be checked against current holdings.
+- Portfolio analysis depends on accurate holdings data.
+
+## Data Freshness
+
+Always check freshness before relying on a report.
+
+Important freshness questions:
+
+1. When was the report generated?
+2. Has the stock moved sharply since then?
+3. Has new company or sector news appeared?
+4. Is the market currently open or closed?
+5. Did your portfolio holdings change after the saved report?
+
+If the answer to any of these is yes, compare a newer view or generate a fresh report when your plan allows it.
+
+## Why Two Pages May Show Different Context
+
+Different tools answer different questions.
+
+| Tool | Data emphasis |
+| --- | --- |
+| Traditional Analysis | Fundamentals, technical context, valuation, risk, analyst-style summary. |
+| Basic AI Analysis | Fast AI-assisted first read. |
+| Advanced AI Analysis | Deeper AI-assisted explanation, confidence, reasons, and risk notes. |
+| Smart AI Analysis | Blended Traditional, AI Predictive, and Sentiment inputs. |
+| AI News | Recent news, catalysts, and sentiment context. |
+| Chart Pattern Analysis | Price structure, patterns, levels, and invalidation context. |
+| Portfolio Analysis | Holdings, allocation, concentration, and portfolio-level risk. |
+
+A disagreement does not mean one page is broken. It usually means the tools are weighing different evidence.
 
 ## Data Limitations
 
-### Coverage Gaps
-- **Small Companies** - Limited data for micro-cap stocks
-- **Private Companies** - No public financial data
-- **Emerging Sectors** - Limited historical data
-- **New Markets** - Insufficient track record
+RightStockAI can only analyze available information.
 
-### Timing Issues
-- **Reporting Delays** - Quarterly financial statements
-- **Weekend Gaps** - No trading data on weekends
-- **Holiday Closures** - Market closure data gaps
-- **Time Zone Differences** - Global market timing
+Common limitations:
 
-## Data Ethics and Privacy
+- Some companies have less available information than others.
+- News can appear after a report is generated.
+- Market data can update between refreshes.
+- Reports can become stale after large price movement.
+- Financial statements are released periodically, not every minute.
+- AI summaries can miss nuance in unusual situations.
 
-### Regulatory Compliance
-- **SEBI Guidelines** - Indian market regulator compliance
-- **Data Protection** - User privacy and security
-- **Fair Usage** - Appropriate data utilization
-- **Transparency** - Clear data source disclosure
+## How Users Should Respond
 
-### User Data Protection
-- **Anonymized Processing** - No personal data in models
-- **Secure Storage** - Encrypted data handling
-- **Access Controls** - Limited data access
-- **Audit Trails** - Data usage tracking
+Use this simple checklist:
+
+1. Confirm the stock name and symbol.
+2. Check report date or last update time.
+3. Read the summary.
+4. Read the supporting reasons.
+5. Read the risk notes.
+6. Compare another tool if the decision matters.
+7. Use portfolio context before acting on a stock you own.
+
+## Privacy Note
+
+Do not share screenshots that expose email addresses, magic links, payment details, holdings, or private reports. If support asks for a screenshot, crop or hide sensitive details first.
 
 ## Next Steps
 
-1. **[Best Practices](/learning/investing-basics/using-rightstockai)** - Effective platform usage
-2. **[Risk Management](/learning/investing-basics/risk-management)** - Investment protection
-3. **[FAQ](/help/faq)** - Common questions answered
+- [How AI Works](/learning/understanding-ai/how-ai-works)
+- [Confidence Levels](/learning/understanding-ai/confidence-levels)
+- [Using RightStockAI Effectively](/learning/investing-basics/using-rightstockai)

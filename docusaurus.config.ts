@@ -84,13 +84,18 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://rightstockai.com',
-          label: 'Back to App',
+          href: 'https://www.rightstockai.com/pricing',
+          label: 'Pricing',
           position: 'right',
         },
         {
-          href: 'https://github.com/dhananjaym182/RightStockAI',
-          label: 'GitHub',
+          href: 'https://www.rightstockai.com/contact-us',
+          label: 'Contact',
+          position: 'right',
+        },
+        {
+          href: 'https://www.rightstockai.com',
+          label: 'Back to App',
           position: 'right',
         },
       ],
@@ -121,28 +126,28 @@ const config: Config = {
           items: [
             {
               label: 'Dashboard',
-              href: 'https://rightstockai.com/dashboard',
+              href: 'https://www.rightstockai.com/dashboard',
             },
             {
               label: 'Pricing',
-              href: 'https://rightstockai.com/pricing',
+              href: 'https://www.rightstockai.com/pricing',
             },
             {
               label: 'Privacy Policy',
-              href: 'https://rightstockai.com/privacy-policy',
+              href: 'https://www.rightstockai.com/privacy-policy',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Support',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/dhananjaym182/RightStockAI',
+              label: 'Contact Us',
+              href: 'https://www.rightstockai.com/contact-us',
             },
             {
-              label: 'Contact Support',
-              href: 'mailto:hello@rightstockai.com',
+              label: 'AI Transparency',
+              href: 'https://www.rightstockai.com/ai-transparency',
             },
           ],
         },

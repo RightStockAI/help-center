@@ -1,73 +1,64 @@
 ---
 sidebar_position: 1
 title: Welcome to RightStockAI
-description: Your complete guide to RightStockAI - AI-powered stock analysis platform for Indian markets (NSE, BSE, NIFTY 50, Sensex)
+description: User guide for RightStockAI stock research, AI analysis, chart patterns, reports, portfolios, watchlists, and support.
 ---
 
 # Welcome to RightStockAI
 
-Welcome to **RightStockAI** - Your AI-powered companion for intelligent stock market analysis of Indian markets (NSE, BSE, NIFTY 50, and Sensex).
+RightStockAI is a stock research platform for Indian market users. It helps you study stocks, compare research methods, track portfolios, monitor watchlists, and understand AI-supported analysis in plain language.
 
-## What is RightStockAI?
+RightStockAI does not place trades and does not provide personalized financial advice. Use it as a research assistant, then apply your own judgment, risk limits, and professional advice where needed.
 
-RightStockAI is a comprehensive stock analysis platform that combines traditional financial analysis methodologies with cutting-edge artificial intelligence to provide deep insights into Indian stock markets. Whether you're a seasoned investor or just starting your investment journey, our platform offers powerful tools to make informed investment decisions.
+## What You Can Do
 
-## Key Features
+### Research a Stock
 
-### 🎯 **Dual Analysis Approach**
-- **Traditional Analysis**: Time-tested methodologies with 100+ financial metrics
-- **AI Analysis**: Advanced machine learning with 56+ financial indicators
+Use stock pages and analysis tools to review price context, company information, technical signals, AI summaries, risk notes, and supporting reasons.
 
-### 📊 **Comprehensive Market Coverage**
-- NSE (National Stock Exchange)
-- BSE (Bombay Stock Exchange)
-- NIFTY 50 Index
-- Sensex tracking
+### Compare Analysis Methods
 
-### 🤖 **AI-Powered Insights**
-- Real-time pattern recognition
-- Predictive analytics with confidence scoring
-- Market sentiment analysis
-- Multi-model ensemble predictions
+RightStockAI includes several research views:
 
-### 💼 **Portfolio Management**
-- Portfolio 360° analysis
-- Risk assessment and optimization
-- Performance tracking
-- Watchlist management (Beta)
+- **Traditional Analysis:** finance-first stock analysis.
+- **Basic AI Analysis:** fast AI-assisted first read.
+- **Advanced AI Analysis:** deeper AI-assisted report with confidence, reasons, and cautions.
+- **Smart AI Analysis:** blended view across multiple signal types.
+- **Chart Pattern Analysis:** price-pattern setup, confidence, key levels, and invalidation context.
+- **AI News:** recent news context and sentiment.
 
-### 📈 **Advanced Tools**
-- Interactive TradingView charts
-- Technical indicators (RSI, MACD, Bollinger Bands)
-- Fundamental metrics analysis
-- Real-time market data
+### Browse Reports and Picks
 
-## Who Should Use RightStockAI?
+Use research reports and curated lists to discover ideas. Treat them as starting points for research, not as automatic buy or sell instructions.
 
-- **Long-term Investors**: Comprehensive fundamental analysis for value investing
-- **Traders**: Technical analysis and AI-powered pattern recognition
-- **Portfolio Managers**: Advanced portfolio optimization and risk management
-- **Financial Advisors**: Professional-grade research tools
-- **Beginners**: Educational resources and guided analysis
+### Track Portfolios and Watchlists
 
-## Getting Started
+Use portfolios for stocks you own or model as holdings. Use watchlists for stocks you want to monitor before deciding.
 
-1. [Create an Account](https://www.rightstockai.com/signup) - Sign up for free access
-2. [Explore the Dashboard](./getting-started/dashboard) - Familiarize yourself with the interface
-3. [Analyze Your First Stock](./features/stock-analysis) - Start with stock analysis
-4. [Build Your Portfolio](./features/portfolio-management) - Track your investments
+### Learn the Terms
 
-## Platform Versions
+The wiki explains product terms such as confidence, saved reports, preview access, chart patterns, Smart AI, portfolio analysis, and plan messages.
 
-- **Free Tier**: Basic AI analysis, stock details, and market overview
-- **Pro Tier**: Advanced AI analysis, portfolio management, traditional analysis, and priority support
+## Best Starting Path
 
-## Support
+1. [Set up your account](/getting-started/account-setup).
+2. [Review the dashboard](/getting-started/dashboard).
+3. [Learn the navigation](/getting-started/navigation).
+4. [Run your first stock analysis](/getting-started/first-analysis).
+5. [Read the tools and terms guide](/product/tools-and-terms).
 
-Need help? We're here for you:
-- 📧 Email: support@rightstockai.com
-- 📚 [Documentation](https://www.rightstockai.com/docs)
-- 💬 [Community Support](https://www.rightstockai.com/support)
-- 🎯 Interactive Product Tour (available in-app)
+## Plans and Pricing
 
-Let's start your intelligent investing journey! 🚀
+This wiki explains how access messages work, but it does not copy plan prices or exact live allowances.
+
+For current pricing, offers, and plan details, use the live page:
+
+[View RightStockAI Pricing](https://www.rightstockai.com/pricing)
+
+## Getting Help
+
+Use these pages when something is unclear:
+
+- [Frequently Asked Questions](/help/faq)
+- [Troubleshooting Guide](/help/troubleshooting)
+- [Contact Support](https://www.rightstockai.com/contact)

@@ -6,7 +6,7 @@ const sidebars: SidebarsConfig = {
     
     {
       type: 'category',
-      label: '🚀 Getting Started',
+      label: 'Getting Started',
       collapsed: false,
       items: [
         'getting-started/introduction',
@@ -16,28 +16,45 @@ const sidebars: SidebarsConfig = {
         'getting-started/first-analysis',
       ],
     },
-    
+
     {
       type: 'category',
-      label: '✨ Features',
+      label: 'Product Concepts',
+      collapsed: false,
       items: [
-        'features/stock-analysis',
-        'features/traditional-analysis',
-        'features/ai-analysis',
-        'features/portfolio-management',
-        'features/market-overview',
+        'product/tools-and-terms',
+        'product/research-workflows',
+        'product/public-pages-and-policies',
       ],
     },
     
     {
       type: 'category',
-      label: '💳 Subscription',
+      label: 'Features',
+      items: [
+        'features/stock-analysis',
+        'features/basic-ai-analysis',
+        'features/traditional-analysis',
+        'features/ai-analysis',
+        'features/smart-ai-analysis',
+        'features/chart-pattern-analysis',
+        'features/research-reports-and-picks',
+        'features/ai-news',
+        'features/portfolio-management',
+        'features/market-overview',
+        'features/charts-and-watchlists',
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'Subscription',
       items: ['subscription/plans'],
     },
     
     {
       type: 'category',
-      label: '❓ Help & Support',
+      label: 'Help & Support',
       items: [
         'help/faq',
         'help/troubleshooting',
@@ -46,7 +63,7 @@ const sidebars: SidebarsConfig = {
     
     {
       type: 'category',
-      label: '📚 Learning Resources',
+      label: 'Learning Resources',
       collapsed: true,
       items: [
         {
@@ -72,11 +89,6 @@ const sidebars: SidebarsConfig = {
       ],
     },
     
-    {
-      type: 'category',
-      label: '🔌 API Documentation',
-      items: ['api/overview'],
-    },
   ],
 };
 

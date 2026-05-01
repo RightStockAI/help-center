@@ -1,135 +1,126 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: Dashboard Overview
-description: Navigate your RightStockAI dashboard - the central hub for stock market activities and AI analysis
+description: Understand the RightStockAI dashboard, market cards, watch areas, and mobile layout.
 ---
 
 # Dashboard Overview
 
-Your dashboard is the central hub for all your stock market activities on RightStockAI.
+The dashboard is the first workspace most signed-in users see. It gives you a quick market snapshot before you open deeper research tools.
 
-## Dashboard Access
+![RightStockAI desktop dashboard](../images/dashboard-desktop.png)
+*Desktop dashboard with market indices, market performance, active volume, gainers, and losers.*
 
-![Login Required Interface](../images/rightstockai-login-required.png)
-*Authentication interface showing when users need to log in to access the dashboard*
+## What You Can Do Here
 
-**Note:** The dashboard requires user authentication. If you're not logged in, you'll see a login interface prompting you to sign up or sign in to access your personalized dashboard.
+Use the dashboard to:
 
-## Dashboard Interface
+- Check broad market direction before opening a stock report.
+- See major index values such as NIFTY 50, BSE SENSEX, and BANK NIFTY.
+- Review gainers, losers, and active-volume lists.
+- Jump into search, analysis, portfolio, watchlist, and learning areas.
+- Switch between desktop and mobile layouts without losing the main market view.
 
-Once logged in, you'll see the full RightStockAI dashboard:
+## When to Use the Dashboard
 
-### Desktop Dashboard
+Use the dashboard when:
 
-![Desktop Dashboard](../images/dashboard-desktop.png)
-*Complete desktop dashboard showing market overview, portfolio widgets, navigation menu, and all key features*
+- You are starting the day and want a broad read.
+- You want to know whether the market is active, quiet, positive, or weak.
+- You need a quick list of stocks moving strongly.
+- You want to jump into search or analysis from one place.
+- You are checking whether a portfolio or watchlist needs attention.
 
-### Mobile Dashboard
+## Reading the Market Cards
 
-![Mobile Dashboard](../images/dashboard-mobile.png)
-*Mobile-optimized dashboard interface with responsive design and touch-friendly controls*
+The top cards summarize the current market context.
 
-## Dashboard Sections
+**Index value** is the latest available value for that index.
 
-### 📊 Market Overview
+**Change and percentage** show whether the index moved up or down from its previous reference point.
 
-Get a quick snapshot of Indian markets:
-- **NIFTY 50**: Current value, change, and percentage
-- **Sensex**: Real-time index tracking
-- **Top Gainers**: Best performing stocks today
-- **Top Losers**: Biggest decliners today
-- **Market Sentiment**: Overall market mood indicator
+**Market status** tells you whether the market is currently open or closed. When the market is closed, use the numbers as the latest available snapshot rather than live movement.
 
-### 🎯 Quick Actions
+**Portfolio value** appears when you use portfolio tracking. A zero value usually means you have not added holdings yet.
 
-Fast access to key features:
-- Search stocks by name or symbol
-- Start Traditional Analysis
-- Launch AI Analysis
-- View your portfolios
-- Access watchlist
+## Market Performance
 
-### 📈 Your Portfolios
+The market performance chart groups the day into:
 
-Portfolio performance at a glance:
-- Total portfolio value
-- Daily change and percentage
-- Top performing holdings
-- Risk metrics
-- Quick access to detailed analysis
+- **Advances:** stocks that are up.
+- **Declines:** stocks that are down.
+- **Unchanged:** stocks with little or no movement.
 
-### 🔔 Alerts & Notifications
+This is useful for understanding whether a move is broad-based or limited to a smaller group of stocks.
 
-Stay informed with:
-- Price alerts
-- Portfolio updates
-- Market news
-- System announcements
-- Feature updates
+How to read it:
 
-### 📰 Market News
+- A market with many advances can support positive stock moves.
+- A market with many declines can make even strong stocks harder to interpret.
+- A mixed market means stock-specific research matters more.
 
-Latest market updates:
-- AI-curated news feed
-- Sector-specific news
-- Company announcements
-- Regulatory updates
+## Most Active by Volume
 
-## Navigation Menu
+The volume chart highlights stocks with heavy trading activity. High volume does not automatically mean a stock is good or bad. Treat it as a signal to investigate why interest is high.
 
-### Main Menu
+Good next steps:
 
-Access from the left sidebar:
+- Open the stock page.
+- Compare price movement with volume.
+- Read the latest news and research context.
+- Check whether the move is market-wide, sector-specific, or company-specific.
 
-**Dashboard** → Stock Dashboard
+## Gainers and Losers
 
-**Stocks**
-- Stock Details
-- Advanced Charts
-- Markets Overview
+The gainers and losers lists help you spot stocks moving strongly during the latest available session.
 
-**AI Stock Analysis**
-- Analysis Dashboard
-- Traditional Analysis (Pro)
-- Basic AI Analysis
-- Advanced AI Analysis (Pro)
-- AI News
+Use these lists for research ideas, not as instant buy or sell instructions. Fast movers can be volatile, and the reason behind the move matters.
 
-**Portfolio 360**
-- My Portfolios (Pro)
-- Upload Portfolio
-- Portfolio Analysis (Pro)
-- Watchlist (Beta)
+Before opening a gainer or loser:
 
-**Calendar** → Market events and earnings
+1. Check whether the whole sector is moving.
+2. Check whether volume is high.
+3. Read recent news if available.
+4. Open a stock report only if the move is worth investigating.
 
-**My Profile** → Account settings
+## Search and Quick Actions
 
-**My Subscription** → Plan management
+The search area helps you move from the dashboard into a stock, page, or tool.
 
-### Help Menu
+Use search when:
 
-**Others Section**
-- Start Tour → Interactive product guide
-- Documentation → This documentation
-- Support → Contact support
+- You know the stock name.
+- You know the symbol.
+- You want to reach an analysis tool quickly.
+- You do not want to browse through the side menu.
 
-## Customization
+## Mobile Dashboard
 
-Personalize your dashboard:
-- **Dark/Light Mode**: Toggle theme preference
-- **Widget Layout**: Rearrange dashboard widgets
-- **Default View**: Set your preferred landing page
-- **Notification Preferences**: Manage alerts
+RightStockAI keeps the same market context on smaller screens with a stacked layout and bottom navigation.
 
-## Keyboard Shortcuts
+![RightStockAI mobile dashboard](../images/dashboard-mobile.png)
+*Mobile dashboard with stacked market cards and quick bottom navigation.*
 
-Power user shortcuts:
-- `Ctrl/Cmd + K`: Quick search
-- `Ctrl/Cmd + D`: Go to dashboard
-- `Ctrl/Cmd + A`: Start analysis
-- `Ctrl/Cmd + P`: View portfolios
+On mobile:
 
-## Dashboard Tour
+- Use the bottom navigation for Home, Markets, Search, Portfolio, and Profile.
+- Open the menu button for the full navigation.
+- Scroll vertically through the same market cards and lists.
+- Use search when you want to jump directly to a stock or tool.
 
-New to RightStockAI? Click **"Start Tour"** in the Help menu for a guided walkthrough of all dashboard features.
+## Common Questions
+
+**Why do values look unchanged?**  
+The market may be closed, data may be between refreshes, or the selected index may not have moved since the last update.
+
+**Why is my portfolio value zero?**  
+You may not have added holdings yet, or you may be viewing the dashboard before setting up a portfolio.
+
+**Should I act only because a stock appears in gainers or losers?**  
+No. Use the list as a starting point, then read the stock report, risk notes, news context, and your own portfolio fit.
+
+## Next Steps
+
+- [Navigate RightStockAI](/getting-started/navigation)
+- [Run your first stock analysis](/getting-started/first-analysis)
+- [Learn the tools and terms](/product/tools-and-terms)

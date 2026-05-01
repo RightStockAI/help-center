@@ -39,10 +39,9 @@ Please read these disclaimers carefully before using RightStockAI. By using our 
 ### SEBI Compliance
 **RightStockAI is not registered with SEBI as an investment advisor.**
 
-- We comply with **applicable regulations**
 - Our services are **educational and informational**
 - Users should **consult qualified professionals**
-- **SEBI registration number** (if applicable): [To be added]
+- Do not treat report labels as personalized investment advice
 
 ### No Guarantee of Accuracy
 **While we strive for accuracy, we cannot guarantee the completeness or accuracy of information.**
@@ -145,9 +144,9 @@ Please read these disclaimers carefully before using RightStockAI. By using our 
 ### Account Security
 **Maintain the security of your account.**
 
-- Use **strong passwords**
-- Enable **two-factor authentication**
-- Do not **share login credentials**
+- Do not **share sign-in links, passwords, or private account codes**
+- Use the newest magic link only when signing in by email
+- Keep account emails and private reports out of public screenshots
 - Report **suspicious activity**
 
 ## Contact and Support
@@ -179,11 +178,11 @@ Please read these disclaimers carefully before using RightStockAI. By using our 
 - **Review history** available upon request
 
 ### Effective Date
-**Current version effective: December 2025**
+**Check the live RightStockAI legal pages for the current effective version.**
 
-- Previous versions **remain in effect** for past use
-- **New users** subject to current terms
-- **Existing users** notified of changes
+- Public policy pages may be updated over time
+- Live legal pages take priority over this educational summary
+- Contact support if you need help finding the right policy page
 
 ---
 

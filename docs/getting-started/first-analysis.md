@@ -1,343 +1,188 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 title: Your First Stock Analysis
-description: Step-by-step guide to analyzing your first stock on RightStockAI
+description: Learn how to choose a RightStockAI analysis tool and read your first stock report.
 ---
 
 # Your First Stock Analysis
 
-Welcome! This hands-on guide will walk you through analyzing your first stock on RightStockAI. We'll use a real example and cover both AI and traditional analysis methods.
+This guide helps you run your first stock analysis without needing to understand every investing term upfront.
 
-## Prerequisites
+## Start from the Analysis Workspace
 
-Before starting, make sure you have:
-- ✅ RightStockAI account created
-- ✅ Logged into the platform
-- ✅ Internet connection
+After signing in, open the analysis workspace. It shows the main research tools in one place.
 
-## Step 1: Access the Analysis Tool
+![RightStockAI analysis workspace](../images/analysis-workspace.png)
+*Analysis workspace with Traditional Analysis, Advanced AI Analysis, Smart AI Analysis, Smart AI Picks, chart-pattern tools, and research report shortcuts.*
 
-### Method 1: Using the Search Bar (Recommended)
-1. Look at the top navigation bar
-2. Find the search box (it says "Search stocks...")
-3. Type a stock name or symbol
-4. Select from the dropdown suggestions
+## Step 1: Choose the Right Tool
 
-### Method 2: From Dashboard
-1. Go to your dashboard
-2. Find the "Quick Actions" section
-3. Click "Analyze Stock"
-4. Enter stock details
+You do not need to use every tool at once. Start with the tool that matches your question.
 
-### Method 3: From Navigation Menu
-1. Click "Analysis" in the top menu
-2. Use the search interface there
+**Traditional Analysis**  
+Use this when you want a structured view of technical, fundamental, and analyst-style context.
 
-:::tip Pro Tip
-The search bar works from any page - it's the fastest way to analyze stocks!
+**Advanced AI Analysis**  
+Use this when you want an AI-assisted report with confidence, reasons, and risk notes.
+
+**Smart AI Analysis**  
+Use this when you want a blended view across traditional, AI, and sentiment-style signals.
+
+**Smart AI Picks**  
+Use this when you want curated ideas that have stronger overlap across multiple research checks.
+
+**Chart Pattern Analysis**  
+Use this when you want to study possible price-pattern setups for a stock.
+
+**Research Reports**  
+Use this when you want saved research views or curated report lists rather than starting from a blank search.
+
+:::tip
+For a first report, choose one stock you already recognize. It is easier to learn the report when you can connect the output to a real company you understand.
 :::
 
-## Step 2: Choose Your First Stock
-
-For this tutorial, let's analyze **Reliance Industries (RELIANCE.NS)** - one of India's largest companies.
-
-### Why Reliance?
-- Well-known company
-- Liquid stock (easy to trade)
-- Interesting fundamentals
-- Good example of analysis
-
-### Entering the Stock
-1. Type "Reliance" in the search bar
-2. Select "RELIANCE.NS - Reliance Industries Ltd"
-3. Click or press Enter
-
-## Step 3: Overview Tab - First Impressions
-
-When the analysis loads, you'll see the **Overview** tab first.
-
-### Key Information Displayed
-
-#### Stock Header
-- **Company Name**: Reliance Industries Limited
-- **Symbol**: RELIANCE.NS
-- **Current Price**: ₹2,850 (example)
-- **Change**: +₹45 (+1.6%)
-- **Market Cap**: ₹18.5 lakh crore
-
-#### Price Chart
-- **Interactive Chart**: 3-month view by default
-- **Timeframe Options**: 1D, 1W, 1M, 3M, 6M, 1Y, 5Y
-- **Chart Types**: Line, Candlestick, Bar
-
-#### Key Metrics Table
-| Metric | Value | Description |
-|--------|-------|-------------|
-| **52W High** | ₹3,100 | Highest price in past year |
-| **52W Low** | ₹2,200 | Lowest price in past year |
-| **Volume** | 5.2M | Average daily volume |
-| **P/E Ratio** | 25.3 | Price to earnings |
-| **Dividend Yield** | 0.3% | Annual dividend percentage |
-
-### Quick Actions
-- **Add to Watchlist** - Monitor this stock
-- **Add to Portfolio** - Record if you own it
-- **Set Alert** - Get price notifications
-- **Compare** - Compare with other stocks
-
-## Step 4: AI Analysis Tab - Understanding Predictions
-
-Click the **"AI Analysis"** tab to see RightStockAI's AI predictions.
-
-### AI Prediction Summary
-
-#### Prediction Display
-```
-AI Prediction for RELIANCE.NS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📈 BULLISH (75% Confidence)
-Expected Price Range: ₹2,900 - ₹3,200
-Timeframe: Next 30 days
-
-Key Factors:
-• Strong sector performance
-• Positive technical indicators
-• Institutional buying interest
-• Favorable market sentiment
-```
-
-#### Confidence Levels Explained
-- **90-100%**: Very High Confidence
-- **70-89%**: High Confidence  
-- **50-69%**: Moderate Confidence
-- **30-49%**: Low Confidence
-- **0-29%**: Very Low Confidence
+## Step 2: Search for a Stock
 
-### AI Analysis Components
+Most analysis pages ask for a stock name or symbol.
 
-#### 1. Price Prediction
-- **Point Estimate**: Single predicted price
-- **Range Estimate**: Confidence interval
-- **Timeframes**: 1D, 1W, 1M, 3M, 6M
-
-#### 2. Supporting Factors
-- **Technical Analysis**: Chart patterns, indicators
-- **Fundamental Analysis**: Company performance
-- **Market Sentiment**: News and social media
-- **Sector Trends**: Industry performance
-
-#### 3. Risk Assessment
-- **Volatility**: Expected price swings
-- **Downside Risk**: Potential losses
-- **Market Risks**: External factors
-
-### Interpreting AI Results
+Good search habits:
 
-:::tip Understanding Confidence
-Higher confidence means the AI found strong, consistent signals. Lower confidence suggests mixed or weak signals.
-:::
+- Start with the company name if you do not know the symbol.
+- Pick the correct listed stock from the suggestions.
+- Check the exchange or company name before opening the report.
+- Avoid running reports on names you are not sure about.
 
-#### Bullish Signals (Positive)
-- ✅ Strong technical patterns
-- ✅ Positive news sentiment
-- ✅ Sector outperforming market
-- ✅ Institutional accumulation
+## Step 2A: Confirm You Opened the Right Stock
 
-#### Bearish Signals (Negative)
-- ❌ Weak technical indicators
-- ❌ Negative news coverage
-- ❌ Sector underperforming
-- ❌ High valuation concerns
+Many companies can have similar names. Before reading a report, confirm:
 
-## Step 5: Technical Analysis Tab - Traditional Indicators
+- Company name.
+- Symbol.
+- Exchange or listing context when shown.
+- Whether the stock is the one you intended to research.
 
-Click the **"Technical"** tab to see traditional analysis.
+This matters because a good-looking report on the wrong symbol is useless.
 
-### Chart Analysis
-
-#### Basic Chart
-- **Price Line**: Shows price movement over time
-- **Volume Bars**: Trading volume (bottom)
-- **Moving Averages**: Trend indicators
+## Step 3: Read the Summary First
 
-#### Common Indicators
+The summary tells you the report's main direction in plain terms. Look for:
 
-##### Moving Averages
-- **SMA 50**: 50-day simple moving average
-- **SMA 200**: 200-day simple moving average
-- **EMA 20**: 20-day exponential moving average
+- The overall view, such as bullish, neutral, bearish, buy, hold, or sell-style wording.
+- Confidence or score, if the report includes one.
+- The main reasons behind the view.
+- Caution points or risk notes.
+- The report date or latest update time.
 
-**Interpretation:**
-- Price above moving averages = Bullish
-- Price below moving averages = Bearish
-- Crossovers signal trend changes
+Do not skip the caution points. They explain what could weaken the report's conclusion.
 
-##### RSI (Relative Strength Index)
-- **Scale**: 0-100
-- **Overbought**: Above 70
-- **Oversold**: Below 30
-- **Neutral**: 30-70
+## Step 3A: Know the Main Report Sections
 
-**Current RSI: 65** (Slightly bullish)
+Most reports are easier to read when you know what each section is trying to do.
 
-##### MACD (Moving Average Convergence Divergence)
-- **MACD Line**: Difference between fast/slow EMA
-- **Signal Line**: 9-day EMA of MACD
-- **Histogram**: Difference between lines
+| Section | What it means |
+| --- | --- |
+| Summary | The report's short explanation. |
+| Recommendation or verdict | The report's compact view, such as positive, neutral, or cautious. |
+| Confidence | How strongly the available signals support the view. |
+| Reasons | Why the report reached that view. |
+| Cautions | What could go wrong or weaken the view. |
+| Chart or levels | Price structure, support, resistance, target, or invalidation context when available. |
+| News context | Recent developments that may affect interpretation. |
+| Report date | Whether the report is fresh enough for your decision. |
 
-**Current MACD: Bullish crossover**
+## Step 4: Understand Confidence
 
-##### Bollinger Bands
-- **Upper Band**: +2 standard deviations
-- **Middle Band**: 20-day SMA
-- **Lower Band**: -2 standard deviations
+Confidence is not a guarantee. It tells you how strongly the available signals line up.
 
-**Price near upper band** (Potential resistance)
+**Higher confidence** usually means the report found more agreement across the inputs it considered.
 
-### Support and Resistance Levels
+**Medium confidence** means the report has useful signals, but you should read the supporting details carefully.
 
-#### Support Levels
-- **Primary**: ₹2,750
-- **Secondary**: ₹2,650
-- **Tertiary**: ₹2,550
+**Lower confidence** means the signals may be mixed, weak, or uncertain.
 
-#### Resistance Levels
-- **Primary**: ₹2,950
-- **Secondary**: ₹3,050
-- **Tertiary**: ₹3,150
+When confidence is low, treat the report as a research note, not a decision.
 
-## Step 6: Compare AI vs Traditional Analysis
+## Step 5: Read Reasons and Risks Together
 
-Click the **"Compare"** tab to see both methods side-by-side.
+A good reading habit is to pair every positive reason with the related risk.
 
-### Comparison Table
+Example questions to ask:
 
-| Aspect | AI Analysis | Traditional Analysis |
-|--------|-------------|---------------------|
-| **Signal** | Bullish (75%) | Bullish (RSI 65, MACD positive) |
-| **Timeframe** | Short-term (30 days) | Medium-term (weeks) |
-| **Key Factors** | Sentiment, fundamentals | Technical indicators |
-| **Risk Level** | Moderate | Moderate |
-| **Confidence** | High | High |
+- Is the stock moving because of company news, sector movement, or broad market movement?
+- Are the technical signals and business context pointing in the same direction?
+- Is the report warning about volatility, valuation, weak momentum, or unclear data?
+- Does this stock fit your time horizon and risk comfort?
 
-### When They Agree
-- **Stronger Signal**: Both methods align
-- **Higher Confidence**: Consistent analysis
-- **Better Decision**: More reliable prediction
+## Step 6: Compare Another View
 
-### When They Differ
-- **Investigate Further**: Check news, fundamentals
-- **Reduce Position Size**: Use caution
-- **Wait for Confirmation**: Monitor for convergence
+Before acting, compare at least one other RightStockAI view.
 
-## Step 7: Take Action
+Useful combinations:
 
-Now that you have the analysis, decide what to do:
+- Traditional Analysis plus Advanced AI Analysis.
+- Smart AI Analysis plus the latest news.
+- Chart Pattern Analysis plus the main stock report.
+- Research Reports plus your own watchlist notes.
 
-### Option 1: Add to Watchlist
-1. Click "Add to Watchlist"
-2. Choose or create a watchlist
-3. Set price alerts if desired
+When two tools agree, the idea may deserve closer review. When they disagree, slow down and read why.
 
-### Option 2: Add to Portfolio
-1. Click "Add to Portfolio"
-2. Select existing portfolio or create new
-3. Enter purchase details:
-   - Date bought
-   - Quantity
-   - Price per share
-   - Brokerage fees
+## Step 6A: What Disagreement Means
 
-### Option 3: Set Price Alert
-1. Click "Set Alert"
-2. Choose alert type:
-   - **Price Above**: Notify when price rises
-   - **Price Below**: Notify when price falls
-   - **Percentage Change**: % movement alerts
+Disagreement is not a problem. It is useful information.
 
-## Step 8: Review and Learn
+Examples:
 
-### What Did You Learn?
+- Traditional Analysis is positive, but AI News is cautious: recent events may be adding risk.
+- Advanced AI is positive, but Chart Pattern Analysis is weak: the forecast view and price setup may not align.
+- Smart AI is neutral: the inputs may be split.
+- Chart Pattern Analysis is bullish, but fundamentals are weak: the setup may be short-term or fragile.
 
-#### About Reliance Industries
-- Current market position
-- Technical strength
-- AI confidence in outlook
-- Key support/resistance levels
+When tools disagree, write down the conflict in plain words before deciding what to do next.
 
-#### About RightStockAI
-- How to search and analyze stocks
-- AI prediction interpretation
-- Technical indicator reading
-- Comparison methodology
+## Step 7: Save or Track the Stock
 
-### Common Questions
+After reading the report, you can:
 
-**Q: Why do AI and technical analysis sometimes differ?**
-A: They use different data and methods. AI considers broader factors, technical focuses on price patterns.
+- Add the stock to a watchlist if you want to monitor it.
+- Add it to a portfolio only if you own it or want to track a real holding.
+- Set a reminder or alert when available.
+- Come back later and compare whether the report changed.
 
-**Q: How accurate are the predictions?**
-A: AI predictions are probabilistic, not guarantees. Past performance doesn't predict future results.
+## Common First-Time Mistakes
 
-**Q: Should I invest based on this analysis?**
-A: This is analysis, not advice. Always do your own research and consider consulting professionals.
+**Reading only the headline**  
+The headline is only the starting point. The reasons and risks are where the useful context lives.
 
-## Practice with Another Stock
+**Treating confidence as certainty**  
+Markets can move against any report. Use confidence as a quality signal, not a promise.
 
-Try analyzing another stock to reinforce learning:
+**Ignoring the date**  
+A report can become less useful when market conditions, news, or price action change.
 
-1. **TCS.NS** - IT sector leader
-2. **HDFCBANK.NS** - Banking sector
-3. **INFY.NS** - Software company
+**Using one tool for every decision**  
+Different tools answer different questions. Compare views when the decision matters.
 
-### Comparison Exercise
-- Analyze all three
-- Compare AI predictions
-- Note technical differences
-- See sector patterns
+**Ignoring portfolio fit**  
+A stock can look interesting but still be unsuitable if you already own too much of the same sector or theme.
 
-## Advanced Features to Explore
+**Forgetting the market context**  
+A stock can move because the whole market or sector is moving. Check the dashboard or market overview first when movement looks unusual.
 
-Once comfortable with basics:
+## Practice Exercise
 
-### Custom Timeframes
-- Analyze different periods
-- Compare short vs long-term
+Pick one familiar stock and write down:
 
-### Multiple Indicators
-- Add more technical indicators
-- Create custom indicator combinations
+1. What the first report says.
+2. The confidence level.
+3. Two supporting reasons.
+4. Two caution points.
+5. Whether another tool agrees or disagrees.
+6. Whether the stock belongs in a watchlist or portfolio review.
 
-### Historical Analysis
-- Look at past predictions
-- See AI accuracy over time
-
-## Troubleshooting
-
-### Analysis Not Loading
-- Check internet connection
-- Refresh the page
-- Try different browser
-
-### Stock Not Found
-- Use correct symbol (e.g., RELIANCE.NS)
-- Try company name
-- Check if stock is listed
-
-### Data Seems Old
-- Market data updates during trading hours
-- Check last update time
-- Refresh for latest data
+This habit helps you learn the product faster than reading only the final recommendation.
 
 ## Next Steps
 
-Congratulations on your first analysis! What's next:
-
-1. **[Create Your Portfolio](/features/portfolio-management)** - Track your investments
-2. **[Stock Analysis Deep Dive](/features/stock-analysis)** - Learn advanced techniques
-3. **[Understanding AI](/learning/understanding-ai/how-ai-works)** - How our AI works
-
----
-
-**Remember:** This analysis is for educational purposes. Always conduct your own research before making investment decisions.
+- [Advanced AI Analysis](/features/ai-analysis)
+- [Traditional Analysis](/features/traditional-analysis)
+- [Research workflows](/product/research-workflows)

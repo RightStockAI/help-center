@@ -1,77 +1,87 @@
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <header className={styles.heroBanner}>
-      {/* Animated background blobs */}
-      <div className={styles.backgroundBlobs}>
-        <div className={styles.blobBlue}></div>
-        <div className={styles.blobPurple}></div>
-      </div>
+      <div className={styles.heroPattern} aria-hidden="true" />
 
       <div className="container">
-        {/* Badge */}
-        <div className={styles.badge}>
-          <span className={styles.badgeIcon}>✨</span>
-          India's #1 AI Stock Analysis Platform
+        <div className={styles.heroLayout}>
+          <div className={styles.heroContent}>
+            <div className={styles.badge}>
+              RightStockAI Help Center
+            </div>
+
+            <h1 className={styles.heroTitle}>
+              Use RightStockAI with confidence.
+            </h1>
+
+            <p className={styles.heroSubtitle}>
+              Step-by-step help for stock reports, chart patterns, portfolios, AI news,
+              plan limits, saved reports, and account support.
+            </p>
+
+            <div className={styles.buttons}>
+              <Link
+                className="button button--primary button--lg"
+                to="/getting-started/account-setup">
+                Set up your account
+              </Link>
+              <Link
+                className="button button--secondary button--lg"
+                to="/product/tools-and-terms">
+                Learn the tools
+              </Link>
+              <Link
+                className="button button--secondary button--lg"
+                to="https://www.rightstockai.com/pricing">
+                See current pricing
+              </Link>
+            </div>
+
+            <div className={styles.trustBadges}>
+              <span>For Indian market users</span>
+              <span>Understand AI results</span>
+              <span>Know your plan limits</span>
+              <span>Find saved reports</span>
+            </div>
+          </div>
+
+          <aside className={styles.heroPanel} aria-label="Recommended help topics">
+            <div className={styles.panelHeader}>
+              <span>Start here</span>
+              <strong>Popular guides</strong>
+            </div>
+            <Link className={styles.panelLink} to="/product/tools-and-terms">
+              <span>01</span>
+              <div>
+                <strong>Tools and terms</strong>
+                <p>Understand RightStockAI features in plain English.</p>
+              </div>
+            </Link>
+            <Link className={styles.panelLink} to="/features/smart-ai-analysis">
+              <span>02</span>
+              <div>
+                <strong>Smart AI Analysis</strong>
+                <p>Learn how to read technical, AI, and sentiment signals together.</p>
+              </div>
+            </Link>
+            <Link className={styles.panelLink} to="/features/chart-pattern-analysis">
+              <span>03</span>
+              <div>
+                <strong>Chart patterns</strong>
+                <p>Use confidence, support, resistance, and invalidation levels correctly.</p>
+              </div>
+            </Link>
+            <div className={styles.panelNote}>
+              Plan details can change. Check the current pricing page before you upgrade.
+            </div>
+          </aside>
         </div>
-
-        {/* Main Heading */}
-        <h1 className={styles.heroTitle}>
-          📊 AI-Powered Stock Analysis for{' '}
-          <span className={styles.gradient}>Indian Markets</span>
-        </h1>
-
-        {/* Subtitle */}
-        <p className={styles.heroSubtitle}>
-          Comprehensive documentation for <strong>NSE, BSE, NIFTY 50</strong> & <strong>Sensex</strong> analysis.
-          <br />
-          Learn traditional & AI-powered analysis methods with portfolio management.
-        </p>
-
-        {/* Buttons */}
-        <div className={styles.buttons}>
-          <Link
-            className="button button--primary button--lg"
-            to="/getting-started/account-setup">
-            🚀 Get Started
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="https://www.rightstockai.com">
-            📱 Launch App
-          </Link>
-        </div>
-
-        {/* Trust badges */}
-        <div className={styles.trustBadges}>
-          <div className={styles.trustItem}>
-            <span>🇮🇳</span> Made for Indian Investors
-          </div>
-          <div className={styles.trustItem}>
-            <span>🤖</span> AI-Powered Insights
-          </div>
-          <div className={styles.trustItem}>
-            <span>🆓</span> Always Free Plan
-          </div>
-          <div className={styles.trustItem}>
-            <span>⭐</span> 90%+ Accuracy
-          </div>
-        </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className={styles.scrollIndicator}>
-        <span>Explore Documentation</span>
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <polyline points="6 9 12 15 18 9"></polyline>
-        </svg>
       </div>
     </header>
   );
@@ -79,52 +89,59 @@ function HomepageHeader() {
 
 const FeatureList = [
   {
-    emoji: '🚀',
+    label: 'Start',
     title: 'Getting Started',
-    description: 'Create your account and explore the RightStockAI dashboard in 5 minutes.',
+    description: 'Create an account, understand login options, and learn the dashboard flow.',
     link: '/getting-started/account-setup',
   },
   {
-    emoji: '📊',
-    title: 'Stock Analysis',
-    description: 'Learn traditional and AI-powered stock analysis methods for NSE & BSE stocks.',
-    link: '/features/stock-analysis',
+    label: 'Terms',
+    title: 'Tools and Terms',
+    description: 'Plain-language definitions for tools, reports, plan limits, and market terms.',
+    link: '/product/tools-and-terms',
   },
   {
-    emoji: '🤖',
-    title: 'AI Analysis',
-    description: 'Discover advanced LSTM algorithms and 56+ financial metrics with confidence scoring.',
-    link: '/features/ai-analysis',
+    label: 'AI',
+    title: 'Smart AI Analysis',
+    description: 'Understand the combined Traditional, AI Predictive, and Sentiment workflow.',
+    link: '/features/smart-ai-analysis',
   },
   {
-    emoji: '💼',
-    title: 'Portfolio Management',
-    description: 'Track investments, analyze performance, and optimize portfolios with AI recommendations.',
-    link: '/features/portfolio-management',
+    label: 'Chart',
+    title: 'Chart Patterns',
+    description: 'Read pattern confidence, key levels, invalidation, previews, and report limits.',
+    link: '/features/chart-pattern-analysis',
   },
   {
-    emoji: '📈',
-    title: 'Market Overview',
-    description: 'Stay updated with NIFTY 50, Sensex, sectoral indices, and market trends.',
-    link: '/features/market-overview',
+    label: 'Ideas',
+    title: 'Reports and Picks',
+    description: 'Separate shared reports, saved reports, history, and Smart AI Picks.',
+    link: '/features/research-reports-and-picks',
   },
   {
-    emoji: '🔌',
-    title: 'API Access',
-    description: 'Enterprise-grade API for programmatic access (Premium plan).',
-    link: '/api/overview',
+    label: 'Plans',
+    title: 'Plans and Access',
+    description: 'Understand previews, locked pages, usage limits, saved reports, and upgrades.',
+    link: '/subscription/plans',
   },
 ];
 
-function Feature({emoji, title, description, link}) {
+type FeatureItem = {
+  label: string;
+  title: string;
+  description: string;
+  link: string;
+};
+
+function Feature({label, title, description, link}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className={styles.featureCard}>
-        <div className={styles.featureEmoji}>{emoji}</div>
+        <div className={styles.featureLabel}>{label}</div>
         <h3>{title}</h3>
         <p>{description}</p>
         <Link className={styles.featureLink} to={link}>
-          Learn more →
+          Open guide
         </Link>
       </div>
     </div>
@@ -135,7 +152,13 @@ function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <h2 className={styles.sectionTitle}>✨ Platform Features</h2>
+        <div className={styles.sectionHeader}>
+          <span className={styles.sectionEyebrow}>Help topics</span>
+          <h2 className={styles.sectionTitle}>Find the right guide quickly</h2>
+          <p className={styles.sectionText}>
+            Start with the basics when a term is unclear, then open feature guides for the tool you want to use.
+          </p>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
@@ -150,35 +173,38 @@ function QuickStart() {
   return (
     <section className={styles.quickStart}>
       <div className="container">
-        <h2 className={styles.sectionTitle}>🎯 Popular Documentation</h2>
+        <div className={styles.sectionHeader}>
+          <span className={styles.sectionEyebrow}>Common paths</span>
+          <h2 className={styles.sectionTitle}>Popular help articles</h2>
+        </div>
         <div className={styles.quickStartGrid}>
           <div className={styles.quickStartCard}>
-            <h3>📘 Getting Started</h3>
+            <h3>New users</h3>
             <ul>
               <li><Link to="/getting-started/account-setup">Creating Your Account</Link></li>
               <li><Link to="/getting-started/dashboard">Dashboard Overview</Link></li>
               <li><Link to="/getting-started/first-analysis">Your First Analysis</Link></li>
-              <li><Link to="/subscription/plans">Pricing Plans</Link></li>
+              <li><Link to="/subscription/plans">Plans and Access</Link></li>
             </ul>
           </div>
           
           <div className={styles.quickStartCard}>
-            <h3>✨ Core Features</h3>
+            <h3>Research tools</h3>
             <ul>
-              <li><Link to="/features/stock-analysis">Stock Analysis Guide</Link></li>
-              <li><Link to="/features/ai-analysis">AI Analysis Explained</Link></li>
+              <li><Link to="/features/basic-ai-analysis">Basic AI Analysis</Link></li>
+              <li><Link to="/features/smart-ai-analysis">Smart AI Analysis</Link></li>
+              <li><Link to="/features/chart-pattern-analysis">Chart Pattern Analysis</Link></li>
               <li><Link to="/features/portfolio-management">Portfolio Management</Link></li>
-              <li><Link to="/features/market-overview">Market Overview</Link></li>
             </ul>
           </div>
           
           <div className={styles.quickStartCard}>
-            <h3>❓ Help & Resources</h3>
+            <h3>Support and policies</h3>
             <ul>
               <li><Link to="/help/faq">Frequently Asked Questions</Link></li>
               <li><Link to="/help/troubleshooting">Troubleshooting Guide</Link></li>
-              <li><Link to="/learning/understanding-ai/how-ai-works">How AI Works</Link></li>
-              <li><a href="mailto:support@rightstockai.com">Contact Support</a></li>
+              <li><Link to="/product/public-pages-and-policies">Public Pages and Policies</Link></li>
+              <li><Link to="https://www.rightstockai.com/contact-us">Contact Support</Link></li>
             </ul>
           </div>
         </div>
@@ -191,34 +217,31 @@ function CTABanner() {
   return (
     <section className={styles.ctaBanner}>
       <div className="container">
-        <h2>Ready to analyze stocks with AI? 🚀</h2>
-        <p>Join thousands of Indian investors making smarter decisions with AI-powered analysis.</p>
+        <span className={styles.ctaEyebrow}>Ready to continue?</span>
+        <h2>Open RightStockAI when you are ready to research.</h2>
+        <p>Use your account to run analysis, view current pricing, manage your plan, or contact support.</p>
         <div className={styles.buttons}>
           <Link
             className="button button--primary button--lg"
-            to="https://www.rightstockai.com/signup">
-            Start 14-Day Free Trial
+            to="https://www.rightstockai.com">
+            Open RightStockAI
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/subscription/plans">
-            View Pricing
+            to="https://www.rightstockai.com/contact-us">
+            Contact support
           </Link>
         </div>
-        <p className={styles.ctaSubtext}>
-          ✓ No credit card required · ✓ Full Pro features · ✓ Cancel anytime
-        </p>
       </div>
     </section>
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title="Home"
-      description="Comprehensive documentation for RightStockAI - AI-powered stock analysis platform for Indian markets (NSE, BSE, NIFTY 50, Sensex)">
+      title="RightStockAI Help Center"
+      description="User documentation for RightStockAI tools, reports, portfolios, chart patterns, AI news, plans, limits, and public policy pages.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

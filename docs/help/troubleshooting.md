@@ -1,776 +1,232 @@
 ---
 sidebar_position: 2
 title: Troubleshooting Guide
-description: Solutions to common problems on RightStockAI including login issues, performance problems, and technical fixes
+description: Fix common RightStockAI sign-in, market data, analysis, portfolio, and browser issues.
 ---
 
 # Troubleshooting Guide
 
-Solutions to common problems on RightStockAI. Find quick fixes for technical issues, performance problems, and account access.
+Use this page when RightStockAI is not behaving as expected. Start with the quick checks, then move to the section that matches your issue.
 
-## Quick Fixes (Try These First)
+## Quick Checks
 
-If you're experiencing issues, try these quick fixes first:
+Try these first:
 
-1. **Refresh the page** (F5 or Ctrl + R)
-2. **Clear browser cache and cookies**
-3. **Try a different browser**
-4. **Check your internet connection**
-5. **Log out and log back in**
+1. Refresh the page.
+2. Check your internet connection.
+3. Open RightStockAI in a new browser tab.
+4. Try a private or incognito window.
+5. Sign out and sign in again.
+6. If a page is stuck, wait a few seconds and refresh once.
 
-Still having issues? Browse the detailed solutions below.
+If the issue continues, contact support with the page name, what you clicked, and a screenshot that does not show private account details.
 
----
+## Sign-In Problems
 
-## Login & Authentication Issues
+### Magic Link Did Not Arrive
 
-### Cannot Log In
+Check these items:
 
-**Symptoms:** Login button not working, credentials rejected
+- Confirm that you entered the correct email address.
+- Check spam, promotions, and updates folders.
+- Wait a few minutes before requesting another link.
+- Use the newest magic link if you requested more than one.
+- Keep the link private. Do not forward it or post it anywhere.
 
-**Solutions:**
+### Magic Link Expired or Opens an Error Page
 
-1. **Verify Credentials**
-   - Check email spelling
-   - Verify password (CAPS LOCK off)
-   - Try password reset
+Magic links are time-sensitive and usually work only once.
 
-2. **Clear Browser Data**
-   ```
-   Chrome: Settings > Privacy > Clear browsing data
-   Firefox: Options > Privacy > Clear Data
-   Safari: Preferences > Privacy > Manage Website Data
-   ```
+What to do:
 
-3. **Disable Extensions**
-   - Try incognito/private mode
-   - Disable ad blockers
-   - Disable privacy extensions temporarily
+1. Return to the sign-in page.
+2. Choose **Email me a magic link**.
+3. Open the newest email from RightStockAI.
+4. Use the link in the same browser if possible.
 
-4. **Check Account Status**
-   - Verify email address
-   - Account may be suspended
-   - Check spam folder for verification email
+### Signed In on One Browser but Not Another
 
-### Session Expired Frequently
+Sessions are browser-specific. If you switch browsers, devices, or private windows, sign in again with a new magic link.
 
-**Symptoms:** Getting logged out repeatedly
+## Page Looks Locked or Limited
 
-**Solutions:**
+Some tools may show a lock, upgrade message, or usage message.
 
-1. **Browser Settings**
-   - Enable cookies
-   - Allow third-party cookies for rightstockai.com
-   - Don't clear cookies on exit
+That can happen when:
 
-2. **Browser Issues**
-   - Update browser to latest version
-   - Try different browser
-   - Clear cache and cookies
+- The tool is included in a different plan.
+- Your current usage allowance has been reached.
+- You are signed out.
+- The app needs a refresh after sign-in.
 
-3. **Network Issues**
-   - Check stable internet connection
-   - Disable VPN temporarily
-   - Try different network
+What to do:
 
-### Two-Factor Authentication Issues
+1. Confirm you are signed in.
+2. Refresh the page.
+3. Check the live pricing page for current plan details.
+4. Contact support if you believe the tool should be available to your account.
 
-**Symptoms:** 2FA code not working
+## Analysis Is Not Loading
 
-**Solutions:**
+If a stock report or AI analysis does not load:
 
-1. **Time Synchronization**
-   - Ensure device time is correct
-   - Enable automatic time sync
-   - Check timezone settings
+- Check that the stock name or symbol is correct.
+- Try searching by company name instead of symbol.
+- Refresh the page once.
+- Try a different analysis tool to see whether the issue is limited to one report.
+- Check whether the page shows a plan or usage message.
+- Try again after a few minutes if the report is still being prepared.
 
-2. **Backup Codes**
-   - Use backup codes if available
-   - Generate new backup codes after login
+If you contact support, include the stock name, analysis tool, approximate time, and what message appeared.
 
-3. **Reset 2FA**
-   - Contact support with account verification
-   - Email: support@rightstockai.com
+### Analysis Result Looks Different Than Expected
 
----
+Reports can differ because tools use different research angles.
 
-## Analysis Problems
+Check:
 
-### Analysis Not Generating
+- Did you open the same stock symbol?
+- Are you comparing reports created at different times?
+- Is one report using news while another is focused on chart or fundamentals?
+- Is the report a preview instead of the full view?
+- Did market conditions change after the report was created?
 
-**Symptoms:** Stuck on loading, error message, blank results
+If the result still looks wrong, send support the tool name, stock symbol, and a screenshot with private details hidden.
 
-**Solutions:**
+## Market Data Looks Old
 
-1. **Verify Stock Symbol**
-   - Check correct symbol (e.g., "RELIANCE" not "Reliance")
-   - Try searching by company name
-   - Verify stock is listed on NSE/BSE
+Market data can look unchanged when the market is closed, between refreshes, or during temporary data delays.
 
-2. **Refresh and Retry**
-   - Hard refresh (Ctrl + F5)
-   - Clear cache
-   - Try again after 5 minutes
+Before reporting the issue:
 
-3. **Check Subscription**
-   - Pro features require subscription
-   - Verify subscription status
-   - Check payment status
+- Check whether the market is open or closed.
+- Look for a last updated time on the page.
+- Refresh the page once.
+- Compare another market page in RightStockAI.
+- Wait a few minutes if the market has just opened.
 
-4. **Data Availability**
-   - Some stocks may have limited data
-   - Recently listed stocks may not be fully covered
-   - Suspended stocks cannot be analyzed
+If only one stock looks wrong, include that stock name when contacting support.
 
-### Incorrect Analysis Results
+## Report or Page Shows a Preview
 
-**Symptoms:** Numbers don't match expectations
+A preview means the page is intentionally showing limited information.
 
-**Solutions:**
+This can happen when:
 
-1. **Corporate Actions**
-   - Check for stock splits
-   - Bonus issues
-   - Dividend adjustments
-   - Rights issues
+- You are on a plan that includes preview access.
+- The feature requires a different plan.
+- The app is showing a teaser before upgrade.
+- A saved report is available but a fresh run is limited.
 
-2. **Data Lag**
-   - Wait for end-of-day updates
-   - Refresh after market close
-   - Check last updated timestamp
+Use the message on the page first. Then check the live pricing page if you need current access details.
 
-3. **Report Issue**
-   - Take screenshot
-   - Note stock symbol and date
-   - Email support@rightstockai.com
+## Portfolio Value Looks Wrong
 
-### AI Confidence Score Low
+Portfolio values depend on the holdings you added.
 
-**Symptoms:** AI showing low confidence
+Check:
 
-**Understanding:**
-- Low confidence is a feature, not a bug
-- Indicates market uncertainty
-- Insufficient historical patterns
-- Volatile market conditions
+- Quantity entered for each holding.
+- Purchase price and date.
+- Whether the stock symbol is the correct listed stock.
+- Whether all holdings were imported or saved.
+- Whether the market price is updating.
 
-**Actions:**
-- Check traditional analysis
-- Wait for more data
-- Consider lower position size
-- Seek additional research
+If an uploaded file did not import correctly, review the file format shown in the app and try again with a smaller file.
 
----
+### Portfolio Upload Fails
 
-## Portfolio Issues
+Try this cleanup checklist:
 
-### Portfolio Upload Failed
+1. Remove extra rows above the column headers.
+2. Remove blank rows.
+3. Keep one holding per row.
+4. Make sure quantity and price are numbers.
+5. Use a consistent date format.
+6. Avoid merged cells.
+7. Upload a smaller test file first.
 
-**Symptoms:** Error during file upload
+If the app provides a sample file or required columns, match that format.
 
-**Solutions:**
+## Watchlist or Alerts Are Missing
 
-1. **File Format**
-   ```
-   Supported: .csv, .xlsx, .xls
-   Max size: 5 MB
-   Encoding: UTF-8
-   ```
+If a stock does not appear in a watchlist:
 
-2. **File Structure**
-   - Download sample format
-   - Match column headers exactly
-   - Remove extra columns
-   - No merged cells in Excel
+- Confirm that it was added to the correct watchlist.
+- Refresh the page.
+- Check whether you are signed in with the same account.
+- Try adding the stock again.
 
-3. **Data Validation**
-   - Stock symbols must be valid
-   - Quantities must be positive numbers
-   - Prices must be numeric
-   - Dates in DD/MM/YYYY or YYYY-MM-DD format
+If alerts are not appearing, confirm that browser notifications are allowed and that the alert condition has actually been reached.
 
-4. **Step-by-Step**
-   ```
-   1. Download sample template
-   2. Fill with your data
-   3. Save as CSV or Excel
-   4. Remove special characters
-   5. Upload again
-   ```
+## Charts Are Blank or Hard to Read
 
-### Portfolio Values Incorrect
+Try these steps:
 
-**Symptoms:** Wrong portfolio value or returns
+- Refresh the page.
+- Change the chart timeframe.
+- Turn indicators off and on again.
+- Try a wider screen if the chart feels cramped.
+- Use another browser if the chart area remains blank.
 
-**Solutions:**
+On mobile, rotate the device or use desktop for detailed chart review.
 
-1. **Verify Purchase Data**
-   - Check purchase prices
-   - Verify purchase dates
-   - Ensure quantities correct
-   - Account for corporate actions
+## Mobile Layout Issue
 
-2. **Corporate Actions**
-   - Update for stock splits (e.g., 1:1 split = 2x quantity, 1/2 price)
-   - Bonus shares (add to quantity)
-   - Rights issues (additional purchase)
+If something feels hard to use on mobile:
 
-3. **Manual Correction**
-   - Edit individual holdings
-   - Adjust cost basis
-   - Update quantities
-   - Recalculate returns
+- Refresh the page.
+- Scroll slowly; some cards stack vertically.
+- Use the bottom navigation for common areas.
+- Open the menu for the full navigation.
+- Use desktop for wide tables, large charts, or portfolio upload.
 
-### Cannot Delete Portfolio
+## App Feels Slow
 
-**Symptoms:** Delete button not working
+RightStockAI pages can feel slower when a report is being generated, market data is busy, or your browser is low on memory.
 
-**Solutions:**
+Try:
 
-1. **Check Dependencies**
-   - Remove all holdings first
-   - Disconnect from watchlist
-   - Remove from dashboard widgets
+- Close unused tabs.
+- Refresh the page.
+- Disable heavy browser extensions for this site.
+- Try a different browser.
+- Use a stable network connection.
 
-2. **Browser Issues**
-   - Hard refresh page
-   - Try different browser
-   - Clear cache
+## Payment or Plan Question
 
-3. **Contact Support**
-   - If issue persists
-   - Email: support@rightstockai.com
+For current pricing, plan features, renewal details, or upgrade options, use the live pricing page. This documentation does not list prices because pricing can change.
 
----
+If a payment succeeded but your access did not update, contact support with the approximate payment time and the plan you selected. Do not send card details.
 
-## Chart Problems
+## What to Send Support
 
-### Charts Not Loading
+When asking for help, include:
 
-**Symptoms:** Blank chart area, loading forever
+- The page or tool name.
+- The stock symbol or portfolio name, if relevant.
+- The message shown on the screen.
+- The approximate time the issue happened.
+- Your browser and device type.
+- A screenshot with private account details hidden.
 
-**Solutions:**
+Helpful screenshot rules:
 
-1. **Browser Compatibility**
-   - Update browser to latest version
-   - Enable JavaScript
-   - Enable WebGL
+- Hide your email address.
+- Hide payment details.
+- Hide magic links.
+- Crop out account menus if they are not relevant.
+- Show the page message or report section that needs help.
 
-2. **Clear Cache**
-   ```
-   Chrome: Ctrl + Shift + Delete
-   Firefox: Ctrl + Shift + Delete
-   Safari: Cmd + Option + E
-   ```
+Do not send:
 
-3. **Disable Extensions**
-   - Ad blockers may block charts
-   - Privacy extensions
-   - Script blockers
+- Magic links.
+- Payment card details.
+- Passwords or private account codes.
+- Full screenshots that show sensitive personal information.
 
-4. **Internet Connection**
-   - Check stable connection
-   - Minimum 2 Mbps recommended
-   - Try different network
+## Contact Support
 
-### Chart Data Incomplete
+Use the support option in the app or the public contact page:
 
-**Symptoms:** Gaps in chart, missing candles
-
-**Reasons:**
-- Market holidays (no data)
-- Trading halts
-- Corporate actions
-- Data provider issues
-
-**Solutions:**
-- Select different timeframe
-- Check market calendar
-- Report if persistent issue
-
-### Indicators Not Working
-
-**Symptoms:** Technical indicators not appearing
-
-**Solutions:**
-
-1. **Chart Settings**
-   - Check indicator is enabled
-   - Verify indicator settings
-   - Reset to default values
-
-2. **Data Requirement**
-   - Some indicators need minimum data points
-   - RSI needs 14+ periods
-   - MACD needs 26+ periods
-
-3. **Refresh Chart**
-   - Reload chart
-   - Switch timeframes
-   - Try different stock
-
----
-
-## Payment & Subscription Issues
-
-### Payment Failed
-
-**Symptoms:** Payment not completing
-
-**Solutions:**
-
-1. **Verify Card Details**
-   - Check card number
-   - Verify expiry date
-   - Correct CVV
-   - Billing address matches
-
-2. **Bank Issues**
-   - Sufficient balance
-   - Card enabled for online transactions
-   - International transactions enabled (if applicable)
-   - 3D Secure/OTP authentication
-
-3. **Try Different Method**
-   - Use UPI instead
-   - Try different card
-   - Use net banking
-   - Digital wallet
-
-4. **Contact Bank**
-   - Bank may be blocking transaction
-   - Request authorization
-   - Check spending limits
-
-### Subscription Not Activating
-
-**Symptoms:** Paid but features not unlocked
-
-**Solutions:**
-
-1. **Wait and Refresh**
-   - Allow 5-10 minutes for processing
-   - Log out and log back in
-   - Clear cache and reload
-
-2. **Verify Payment**
-   - Check bank statement
-   - Payment confirmation email
-   - Transaction ID
-
-3. **Contact Support**
-   - Email: billing@rightstockai.com
-   - Provide transaction ID
-   - Include screenshot
-
-### Cannot Cancel Subscription
-
-**Symptoms:** Cancel button not working
-
-**Solutions:**
-
-1. **Proper Steps**
-   ```
-   1. Go to My Subscription
-   2. Click "Manage Subscription"
-   3. Click "Cancel Subscription"
-   4. Confirm cancellation
-   ```
-
-2. **Browser Issues**
-   - Try different browser
-   - Disable extensions
-   - Clear cache
-
-3. **Contact Support**
-   - Email: billing@rightstockai.com
-   - We'll process manually
-
----
-
-## Performance Issues
-
-### Website Loading Slowly
-
-**Symptoms:** Pages take long to load
-
-**Solutions:**
-
-1. **Check Internet**
-   - Test speed: fast.com
-   - Minimum 2 Mbps recommended
-   - Try different network
-
-2. **Browser Optimization**
-   - Close unnecessary tabs
-   - Clear cache and cookies
-   - Disable heavy extensions
-   - Update browser
-
-3. **Device Resources**
-   - Close other applications
-   - Restart browser
-   - Restart computer
-   - Check RAM usage
-
-4. **Server Status**
-   - Check status page (if available)
-   - May be temporary high traffic
-   - Try during off-peak hours
-
-### Analysis Processing Slow
-
-**Symptoms:** Stock analysis or portfolio calculations taking unusually long time
-
-**Solutions:**
-
-1. **Reduce Analysis Complexity**
-   - Select fewer technical indicators
-   - Use shorter date ranges
-   - Analyze one stock at a time
-   - Use basic analysis instead of AI
-
-2. **Optimize Data Handling**
-   - Refresh stock prices first
-   - Clear old analysis cache
-   - Wait for one analysis to complete
-   - Check subscription (premium features may be faster)
-
-### Chart Performance
-
-**Symptoms:** Charts lagging when scrolling or zooming
-
-**Solutions:**
-
-1. **Chart Optimization**
-   - Use shorter timeframes
-   - Reduce number of indicators
-   - Use line charts instead of candlesticks
-   - Disable animations
-   - Use daily data instead of intraday
-
-2. **Graphics Performance**
-   - Update graphics drivers
-   - Enable GPU acceleration
-   - Close other tabs
-   - Lower screen resolution if needed
-
----
-
-## Mobile Issues
-
-### Mobile Site Not Working
-
-**Symptoms:** Features not working on mobile
-
-**Solutions:**
-
-1. **Browser Compatibility**
-   - Use Chrome, Firefox, or Safari
-   - Update browser to latest version
-   - Enable JavaScript
-
-2. **Clear Mobile Cache**
-   ```
-   Chrome: Settings > Privacy > Clear browsing data
-   Safari: Settings > Safari > Clear History
-   ```
-
-3. **Request Desktop Site**
-   - Sometimes mobile view has issues
-   - Use "Request Desktop Site" option
-   - Rotate to landscape mode
-
-### Touch Controls Not Responsive
-
-**Symptoms:** Buttons not working on touch
-
-**Solutions:**
-
-1. **Screen Issues**
-   - Clean screen
-   - Remove screen protector temporarily
-   - Disable glove mode
-
-2. **Browser Settings**
-   - Enable touch events
-   - Disable desktop mode
-   - Clear cache
-
----
-
-## Data & Sync Issues
-
-### Data Not Updating
-
-**Symptoms:** Stale prices, old data
-
-**Solutions:**
-
-1. **Manual Refresh**
-   - Pull to refresh (mobile)
-   - F5 or Ctrl + R (desktop)
-   - Hard refresh: Ctrl + F5
-
-2. **Check Update Time**
-   - View "Last Updated" timestamp
-   - Market data updates during trading hours
-   - End-of-day data after 6 PM IST
-
-3. **Clear Cache**
-   - Browser cache may be serving old data
-   - Clear site data
-   - Reload page
-
-### Watchlist Not Syncing
-
-**Symptoms:** Changes not reflecting across devices
-
-**Solutions:**
-
-1. **Login Status**
-   - Ensure logged in same account
-   - Check internet connection
-   - Wait 30 seconds for sync
-
-2. **Manual Sync**
-   - Log out and back in
-   - Refresh page on both devices
-   - Clear cache if needed
-
----
-
-## Error Messages
-
-### "Something Went Wrong"
-
-**Generic error message**
-
-**Solutions:**
-1. Refresh page
-2. Clear cache
-3. Try different browser
-4. If persists, contact support with details
-
-### "Rate Limit Exceeded"
-
-**Too many requests**
-
-**Solutions:**
-1. Wait 5 minutes
-2. Reduce frequency of requests
-3. Pro users have higher limits
-4. Contact support if legitimate use
-
-### "Unauthorized Access"
-
-**Permission issue**
-
-**Solutions:**
-1. Log out and back in
-2. Check subscription status
-3. Feature may require Pro
-4. Clear cookies
-
-### "Network Error"
-
-**Connection problem**
-
-**Solutions:**
-1. Check internet connection
-2. Disable VPN
-3. Try different network
-4. Check firewall settings
-
----
-
-## Advanced Troubleshooting
-
-### Browser Console Errors
-
-**For technical users:**
-
-1. **Open Console**
-   ```
-   Chrome: F12 or Ctrl + Shift + J
-   Firefox: F12 or Ctrl + Shift + K
-   Safari: Cmd + Option + C
-   ```
-
-2. **Check for Errors**
-   - Red error messages
-   - Copy error text
-   - Take screenshot
-
-3. **Report to Support**
-   - Include console errors
-   - Steps to reproduce
-   - Browser version
-   - Email: support@rightstockai.com
-
-### Network Tab Analysis
-
-**For debugging data issues:**
-
-1. **Open Network Tab**
-   ```
-   F12 > Network tab
-   ```
-
-2. **Record Requests**
-   - Reproduce issue
-   - Check failed requests (red)
-   - Check request/response
-
-3. **Report Findings**
-   - Screenshot network tab
-   - Failed request details
-   - Email to support
-
----
-
-## Browser-Specific Solutions
-
-### Chrome
-- Enable hardware acceleration: chrome://settings/system
-- Clear browsing data: chrome://settings/clearBrowserData
-- Update to latest version
-- Try incognito mode
-
-### Firefox
-- Enable hardware acceleration: Options > General > Performance
-- Clear cache: Options > Privacy & Security > Clear Data
-- Refresh Firefox if needed
-- Check WebRender is enabled
-
-### Safari
-- Clear history: Develop > Clear History
-- Enable hardware acceleration
-- Update to latest version
-- Check extensions aren't interfering
-
-### Edge
-- Update to latest version
-- Clear browsing data
-- Check compatibility mode
-- Try resetting browser settings
-
----
-
-## Getting Additional Help
-
-### Before Contacting Support
-
-**Information to gather:**
-
-1. **Account Information**
-   - Email address
-   - Subscription type
-   - Account creation date
-
-2. **Problem Details**
-   - What were you trying to do?
-   - What happened instead?
-   - Error messages
-   - Screenshots
-
-3. **Technical Details**
-   - Browser and version
-   - Operating system
-   - Device type
-   - Internet connection type
-
-4. **Reproduction Steps**
-   - List step-by-step
-   - When did it start?
-   - Does it happen every time?
-
-### Contact Support
-
-📧 **Email:** support@rightstockai.com
-
-**Include in email:**
-- Subject: Brief description
-- Account email
-- Problem description
-- Screenshots/screen recordings
-- Browser & OS version
-- Steps already tried
-
-💬 **Live Chat:** [Support Page](https://www.rightstockai.com/support)
-- Available: 9 AM - 6 PM IST
-- Real-time assistance
-- Screen sharing available
-
-### Emergency Issues
-
-**For critical problems:**
-- Payment issues: billing@rightstockai.com
-- Security concerns: security@rightstockai.com
-- Account locked: support@rightstockai.com (urgent)
-
----
-
-## Prevention Tips
-
-### Regular Maintenance
-
-1. **Browser Hygiene**
-   - Clear cache weekly
-   - Update browser monthly
-   - Disable unused extensions
-
-2. **Account Security**
-   - Use strong password
-   - Enable 2FA
-   - Regular password changes
-
-3. **Data Backups**
-   - Export portfolio data monthly
-   - Save analysis reports
-   - Keep transaction records
-
-### Best Practices
-
-1. **Regular Updates**
-   - Review portfolio weekly
-   - Check watchlist daily
-   - Update holdings after trades
-
-2. **System Requirements**
-   - Use supported browsers
-   - Stable internet (2+ Mbps)
-   - Keep system updated
-
-3. **Proactive Monitoring**
-   - Check announcements
-   - Read update emails
-   - Follow best practices
-
----
-
-## Browser & Device Requirements
-
-### Supported Browsers
-- Chrome 102+
-- Firefox 102+
-- Safari 15.4+
-- Edge 102+
-
-### Minimum System Requirements
-- **Internet:** 2 Mbps (5 Mbps for advanced features)
-- **RAM:** 4GB (8GB recommended)
-- **Storage:** 100MB free for browser cache
-- **Screen Resolution:** 1024x768 minimum
-
-### Mobile Support
-- iOS 12+
-- Android 8+
-- Chrome Mobile 102+
-- Safari Mobile 15+
-
----
-
-**Still having issues?** Contact us at support@rightstockai.com - we're here to help! 🚀
-
-For more help, check our [FAQ](./faq) or start our [Interactive Product Tour](https://www.rightstockai.com/dashboard).
+[Contact RightStockAI Support](https://www.rightstockai.com/contact)

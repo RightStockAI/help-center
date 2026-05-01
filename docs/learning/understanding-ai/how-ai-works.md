@@ -1,83 +1,127 @@
 ---
 sidebar_position: 1
 title: How AI Works
-description: Understand the technology behind RightStockAI's predictions
+description: Understand RightStockAI AI analysis in plain language, including signals, confidence, reasons, and limitations.
 ---
 
 # How AI Works
 
-RightStockAI uses advanced machine learning and artificial intelligence to analyze stock markets and provide investment insights.
+RightStockAI uses AI to help organize stock research into readable summaries, confidence levels, supporting reasons, and caution points.
 
-## AI Fundamentals
+The goal is not to replace your judgment. The goal is to help you read more evidence faster and notice risks you might otherwise miss.
 
-### Machine Learning Basics
-- **Supervised Learning** - Learning from historical data with known outcomes
-- **Pattern Recognition** - Identifying recurring market patterns
-- **Predictive Modeling** - Forecasting future price movements
-- **Continuous Learning** - Improving with new data
+## What AI Looks At
 
-### Data Sources
-- **Price Data** - Historical OHLCV data
-- **Volume Data** - Trading volume patterns
-- **News Sentiment** - Financial news analysis
-- **Economic Indicators** - GDP, inflation, rates
+Depending on the tool and available data, an AI-assisted report may consider:
 
-## Prediction Process
+- Price movement and trend context.
+- Volume and market activity.
+- Technical indicators.
+- Company and financial context.
+- Market and sector context.
+- News and sentiment context.
+- Earlier report context when available.
 
-### Data Collection
-1. **Real-time Data** - Live market feeds
-2. **Historical Data** - 10+ years of market history
-3. **Alternative Data** - News, social media, satellite imagery
-4. **Fundamental Data** - Company financials and metrics
+Not every report uses every input. Always read what the page actually shows.
 
-### Feature Engineering
-1. **Technical Indicators** - RSI, MACD, moving averages
-2. **Statistical Measures** - Volatility, correlation, momentum
-3. **Sentiment Scores** - News and social media analysis
-4. **Economic Factors** - Interest rates, GDP growth
+## Why Inputs Matter
 
-### Model Training
-1. **Algorithm Selection** - Neural networks, random forests
-2. **Cross-validation** - Testing on historical data
-3. **Hyperparameter Tuning** - Optimizing model parameters
-4. **Ensemble Methods** - Combining multiple models
+Different inputs answer different questions.
 
-### Prediction Generation
-1. **Real-time Analysis** - Processing current market data
-2. **Confidence Scoring** - Assessing prediction reliability
-3. **Risk Assessment** - Evaluating potential outcomes
-4. **Recommendation Creation** - Generating actionable insights
+| Input | Question it helps answer |
+| --- | --- |
+| Price movement | Is the stock trending, reversing, or moving sideways? |
+| Volume | Is there strong trading interest behind the move? |
+| Fundamentals | Is the company quality or valuation supporting the idea? |
+| Technical context | Are price levels, momentum, or trend useful right now? |
+| News | Did a recent event change the story? |
+| Sentiment | Is recent tone positive, negative, or mixed? |
+| Market context | Is the stock moving with the market or against it? |
 
-## AI Accuracy
+## What AI Produces
 
-### Performance Metrics
-- **Directional Accuracy** - Correctly predicting up/down moves
-- **Magnitude Accuracy** - Accuracy of predicted price changes
-- **Timing Accuracy** - Correct entry/exit timing
-- **Risk Assessment** - Accuracy of risk predictions
+AI output in RightStockAI usually appears as:
 
-### Factors Affecting Accuracy
-- **Market Conditions** - Better in trending markets
-- **Data Quality** - High-quality inputs improve outputs
-- **Time Horizon** - Shorter predictions more accurate
-- **Asset Liquidity** - More liquid stocks easier to predict
+- A plain-language summary.
+- A recommendation or direction label.
+- A confidence score or confidence wording.
+- Supporting reasons.
+- Risk notes and cautions.
+- Price or target-style context when available.
+- Comparison with other analysis views.
 
-## Limitations
+## Why Confidence Changes
 
-### Technical Limitations
-- **Black Box Nature** - Complex models hard to explain
-- **Data Dependency** - Accuracy depends on input quality
-- **Historical Bias** - Trained on past patterns
-- **Computational Limits** - Can't process infinite variables
+Confidence can change when:
 
-### Market Limitations
-- **Unpredictable Events** - Black swan events
-- **Human Behavior** - Irrational market participants
-- **Policy Changes** - Government interventions
-- **Global Events** - Geopolitical developments
+- New price movement appears.
+- News changes the market story.
+- A stock moves sharply after a report.
+- Different signals stop agreeing.
+- The report is refreshed with newer context.
+
+This is why report age matters. A report that was useful earlier may need a fresh look after major movement or news.
+
+## Confidence in Plain Language
+
+Confidence means signal strength. It is not a promise.
+
+- **Higher confidence:** the report found stronger agreement in the inputs it considered.
+- **Medium confidence:** the report found useful signals, but uncertainty remains.
+- **Lower confidence:** signals are mixed, weak, or unclear.
+
+Use confidence together with reasons, risks, and report age.
+
+## Why Reports Can Disagree
+
+Different tools answer different questions.
+
+Examples:
+
+- Traditional Analysis may like a company, while Chart Pattern Analysis shows a weak setup.
+- AI News may be cautious because of recent events, while fundamentals still look stable.
+- Smart AI may be neutral because the inputs are split.
+
+Disagreement is useful. It tells you what to investigate before deciding.
+
+## Smart Use of AI Reports
+
+Use AI reports to improve your research process:
+
+1. Let the summary orient you.
+2. Use confidence to judge signal strength.
+3. Use reasons to understand the thesis.
+4. Use cautions to understand what could go wrong.
+5. Compare another tool before making a decision.
+
+Do not use AI reports to skip thinking about risk, portfolio fit, or your own time horizon.
+
+## What AI Cannot Do
+
+AI cannot:
+
+- Guarantee returns.
+- Know your personal financial situation.
+- Predict sudden news or policy events with certainty.
+- Remove market risk.
+- Decide position size for you.
+- Replace your own research or professional advice.
+
+## Safer Reading Habit
+
+Use this order:
+
+1. Confirm the stock name and symbol.
+2. Read the summary.
+3. Check confidence.
+4. Read supporting reasons.
+5. Read caution points.
+6. Check report age.
+7. Compare another RightStockAI tool.
+8. Decide whether the idea fits your portfolio and risk comfort.
 
 ## Next Steps
 
-1. **[Confidence Levels](/learning/understanding-ai/confidence-levels)** - Understanding prediction reliability
-2. **[Limitations](/learning/understanding-ai/limitations)** - What AI can't do
-3. **[Data Sources](/learning/understanding-ai/data-sources)** - Where information comes from
+- [Confidence levels](/learning/understanding-ai/confidence-levels)
+- [AI limitations](/learning/understanding-ai/limitations)
+- [Advanced AI Analysis](/features/ai-analysis)

@@ -17,7 +17,7 @@ While AI provides powerful analytical tools, it's important to understand its li
 - **Data Quality Issues** - Accuracy depends on input data
 
 ### Black Box Nature
-- **Complex Models** - Hard to understand internal reasoning
+- **Complex Models** - Model reasoning can be difficult to interpret
 - **Correlation vs Causation** - May identify patterns without understanding why
 - **Overfitting Risk** - Models may work well in training but poorly live
 - **Explainability Challenges** - Difficult to explain predictions
@@ -25,7 +25,7 @@ While AI provides powerful analytical tools, it's important to understand its li
 ## Market Limitations
 
 ### Unpredictable Events
-- **Black Swan Events** - Rare, high-impact occurrences
+- **Rare high-impact events** - Sudden events that do not resemble normal market history
 - **Geopolitical Events** - Wars, elections, policy changes
 - **Natural Disasters** - Earthquakes, pandemics, weather events
 - **Technological Breakthroughs** - Unexpected innovations
@@ -45,10 +45,10 @@ While AI provides powerful analytical tools, it's important to understand its li
 ## Prediction Constraints
 
 ### Time Horizon Limits
-- **Short-term Accuracy** - Better for 1-7 day predictions
-- **Medium-term Challenges** - Harder for 1-3 month predictions
-- **Long-term Uncertainty** - Very difficult for 6-12 month predictions
-- **Fundamental Changes** - Company transformations hard to predict
+- **Short-term context can change quickly** - News, volume, or market direction can shift the view.
+- **Medium-term context needs follow-up** - Reports may need refreshing when price or news changes.
+- **Long-term uncertainty remains high** - Business conditions and market cycles can change.
+- **Fundamental changes are hard to predict** - Company transformations may not be visible early.
 
 ### Market Condition Dependency
 - **Trending Markets** - Better performance in clear trends
@@ -86,20 +86,20 @@ While AI provides powerful analytical tools, it's important to understand its li
 
 ## Appropriate AI Usage
 
-### When to Trust AI
-- **High Confidence Scores** - Above 75% confidence
-- **Confirming Evidence** - Technical and fundamental agreement
-- **Stable Markets** - Normal market conditions
-- **Liquid Stocks** - Actively traded securities
+### When AI Deserves More Attention
+- **Higher confidence** - Signals appear more aligned.
+- **Confirming evidence** - Traditional, AI, news, and chart context agree.
+- **Fresh report** - The result reflects recent market context.
+- **Clear reasons** - The report explains why it reached the view.
 
 ### When to Be Cautious
-- **Low Confidence Scores** - Below 50% confidence
+- **Low Confidence Scores** - Weak or mixed evidence
 - **Conflicting Signals** - AI vs technical disagreement
 - **Extreme Conditions** - High volatility or uncertainty
 - **Breaking News** - Recent major developments
 
-### When to Ignore AI
-- **Very Low Confidence** - Below 30% confidence
+### When to Treat AI as Low-Value Context
+- **Very Low Confidence** - Signals are too weak or contradictory
 - **Unprecedented Events** - No historical precedent
 - **Illogical Predictions** - Results that don't make fundamental sense
 - **Extreme Readings** - Predictions that seem too good/bad to be true

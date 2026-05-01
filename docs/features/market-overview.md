@@ -1,343 +1,165 @@
 ---
-sidebar_position: 5
+sidebar_position: 10
 title: Market Overview
-description: Stay updated with Indian stock market information, NIFTY 50, Sensex indices, and market trends
+description: Learn how to use RightStockAI market pages, index cards, market breadth, gainers, losers, and active-volume lists.
 ---
 
 # Market Overview
 
-Stay updated with comprehensive Indian stock market information, indices, and market trends.
-
-## Markets Page
-
-Access real-time market data at [Markets Overview](https://www.rightstockai.com/markets)
-
-### Key Features
-
-#### 📊 Indian Market Indices
-
-**NIFTY 50**
-- Real-time index value
-- Daily change and percentage
-- Intraday chart
-- Top gainers and losers
-- Sector performance
-
-**Sensex**
-- BSE Sensex tracking
-- Historical performance
-- Index composition
-- Market breadth indicators
-
-**Other Indices:**
-- NIFTY Bank
-- NIFTY IT
-- NIFTY Auto
-- NIFTY Pharma
-- NIFTY FMCG
-- NIFTY Metal
-- Sector-specific indices
-
-#### 🎯 Market Movers
-
-**Top Gainers:**
-- Biggest percentage gainers
-- Volume analysis
-- Sector distribution
-- Quick analysis access
-
-**Top Losers:**
-- Biggest percentage losers
-- Volume indicators
-- Potential reversal candidates
-- Risk assessment
-
-**Most Active:**
-- Highest volume stocks
-- Unusual volume detection
-- Liquidity indicators
-- Trading opportunities
-
-#### 📈 Sector Performance
-
-**Sector Heatmap:**
-- Visual sector performance
-- Color-coded representation
-- Relative strength
-- Rotation detection
-
-**Sector Analysis:**
-- Financial sector
-- Technology
-- Healthcare/Pharma
-- Consumer goods
-- Energy
-- Metals & Mining
-- Real Estate
-- Telecom
-- Automobiles
-
-#### 📰 Market News
-
-**Latest Updates:**
-- Breaking market news
-- Economic indicators
-- Policy changes
-- Corporate announcements
-- Global market impact
-
-**AI-Curated News:**
-- Relevant news filtering
-- Sentiment analysis
-- Impact assessment
-- Personalized feed
-
-## Market Indicators
-
-### Technical Indicators
-
-**Market Breadth:**
-- Advance-Decline ratio
-- New highs vs new lows
-- Advancing volume vs declining volume
-- McClellan Oscillator
-
-**Volatility Indicators:**
-- India VIX
-- Market volatility trends
-- Fear & Greed Index
-- Risk appetite indicators
-
-### Fundamental Indicators
-
-**Market Valuation:**
-- NIFTY P/E ratio
-- NIFTY P/B ratio
-- Market cap to GDP
-- Valuation zones
-
-**Economic Indicators:**
-- GDP growth rate
-- Inflation (CPI/WPI)
-- Interest rates
-- FII/DII activity
-- Currency movements (USD/INR)
-
-## Market Calendar
-
-Access at [Calendar](https://www.rightstockai.com/calendar)
-
-### Important Events
-
-**Earnings Calendar:**
-- Quarterly earnings dates
-- Expected earnings
-- Analyst estimates
-- Conference call schedules
-
-**Corporate Actions:**
-- Dividend announcements
-- Stock splits
-- Bonus issues
-- Rights issues
-- Buybacks
-
-**Economic Events:**
-- RBI policy meetings
-- GDP release dates
-- Inflation data
-- PMI reports
-- IIP data
-
-**IPO Calendar:**
-- Upcoming IPOs
-- Issue dates
-- Price bands
-- Subscription details
-- Allotment dates
-
-## Market Analysis Tools
-
-### Heatmaps
-
-**Stock Heatmap:**
-- NIFTY 50 heatmap
-- NIFTY Next 50
-- Sector-wise view
-- Size = Market cap
-- Color = Performance
-
-**Sector Rotation:**
-- Leading sectors
-- Lagging sectors
-- Rotation patterns
-- Investment opportunities
-
-### Market Comparison
-
-**Index Comparison:**
-- Compare multiple indices
-- Relative performance
-- Correlation analysis
-- Historical comparison
-
-**Global Markets:**
-- Asian indices
-- US markets
-- European markets
-- Impact on Indian markets
-
-## Market Insights
-
-### Daily Market Summary
-
-**Morning Brief:**
-- Pre-market analysis
-- Global market cues
-- Stocks to watch
-- Key levels
-
-**Evening Wrap:**
-- Market performance
-- Key movers
-- Sector highlights
-- Tomorrow's outlook
-
-### Weekly Analysis
-
-**Week in Review:**
-- Weekly performance
-- Major events impact
-- Sector rotation
-- Portfolio adjustments
-
-**Week Ahead:**
-- Key events
-- Earnings calendar
-- Technical levels
-- Trading strategy
-
-## How to Use Market Overview
-
-### For Day Trading
-
-1. **Morning Routine**
-   - Check pre-market indicators
-   - Review top gainers/losers
-   - Identify high volume stocks
-   - Set alerts
-
-2. **During Market Hours**
-   - Monitor real-time indices
-   - Track market breadth
-   - Watch for breakouts
-   - Manage positions
-
-3. **Post-Market**
-   - Review day's performance
-   - Analyze trades
-   - Plan for next day
-   - Update watchlist
-
-### For Investment Research
-
-1. **Identify Trends**
-   - Sector performance
-   - Market cycles
-   - Valuation levels
-   - Economic indicators
-
-2. **Find Opportunities**
-   - Undervalued sectors
-   - Emerging trends
-   - Corporate actions
-   - Dividend plays
-
-3. **Risk Assessment**
-   - Market volatility
-   - Economic risks
-   - Global factors
-   - Sector risks
-
-## Market Data Features
-
-### Real-time Data
-
-- Live price updates
-- Tick-by-tick data
-- Order book (Level 2)
-- Market depth
-
-### Historical Data
-
-- Daily historical prices
-- Weekly/Monthly data
-- Adjusted for corporate actions
-- Export functionality
-
-### Advanced Charts
-
-Access at [Advanced Charts](https://www.rightstockai.com/chart)
-
-**Chart Features:**
-- Multiple timeframes
-- 100+ technical indicators
-- Drawing tools
-- Pattern recognition
-- Chart types (Candlestick, Line, Bar, Heikin-Ashi)
-
-## Customization
-
-### Personalized Dashboard
-
-- Watchlist integration
-- Favorite indices
-- Custom alerts
-- Preferred sectors
-- News preferences
-
-### Alerts & Notifications
-
-Set alerts for:
-- Index levels
-- Individual stocks
-- Volatility spikes
-- Volume surges
-- News events
-
-## Mobile Experience
-
-Full market access on mobile:
-- Real-time index tracking
-- Quick stock lookup
-- Mobile-optimized charts
-- Push notifications
-- Offline data caching
-
-## Market Hours
-
-**NSE/BSE Trading Hours:**
-- Pre-open: 9:00 AM - 9:15 AM IST
-- Normal Trading: 9:15 AM - 3:30 PM IST
-- Post-close: 3:40 PM - 4:00 PM IST
-
-**Market Holidays:**
-- Automatically updated
-- Holiday calendar
-- Alternative trading days
-
-## Data Sources
-
-Reliable data from:
-- NSE (National Stock Exchange)
-- BSE (Bombay Stock Exchange)
-- RBI (Reserve Bank of India)
-- Ministry of Finance
-- Global market feeds
-
-## Support
-
-Questions about markets?
-- 📖 [Market Guide](https://www.rightstockai.com/docs)
-- 💬 [Contact Support](https://www.rightstockai.com/support)
-- 📧 Email: support@rightstockai.com
+Market pages help you understand the broad day before you study one stock.
+
+Use them to answer:
+
+- Are major indices up, down, or flat?
+- Is the move broad-based or limited to a few stocks?
+- Which stocks are gaining, losing, or trading heavily?
+- Is the market open or closed?
+- Which ideas deserve deeper research?
+
+## What to Check First
+
+### Index Cards
+
+Index cards show broad market levels such as NIFTY 50, BSE SENSEX, and BANK NIFTY when available.
+
+Read:
+
+- Current or latest available value.
+- Change and percentage movement.
+- Market status.
+
+If the market is closed, treat the values as the latest available snapshot.
+
+### Major Indices
+
+Different indices summarize different parts of the market.
+
+| Index or group | How to read it |
+| --- | --- |
+| NIFTY 50 | Broad large-company market context. |
+| BSE SENSEX | Large-company market context from BSE. |
+| BANK NIFTY | Banking-sector direction. |
+| Sector indices | Useful for checking whether a move is sector-specific. |
+
+If one index is strong but another is weak, the market may be mixed rather than clearly positive or negative.
+
+### Market Breadth
+
+Market breadth compares advancing, declining, and unchanged stocks.
+
+- **More advances:** broad positive participation.
+- **More declines:** broad weakness.
+- **Many unchanged stocks:** quieter or mixed conditions.
+
+Breadth helps you avoid overreacting to one index or one popular stock.
+
+### Most Active by Volume
+
+High-volume stocks are receiving attention. Volume alone is not bullish or bearish.
+
+Use volume as a prompt to ask:
+
+- Is there news?
+- Is the sector moving?
+- Did price move with volume?
+- Does the move match the stock's analysis report?
+
+### Sector Context
+
+Sector movement helps explain why multiple stocks may move together.
+
+Examples:
+
+- Bank stocks may move together when banking sentiment changes.
+- IT stocks may react together to currency, global demand, or earnings expectations.
+- Energy, metal, and commodity-linked stocks can move with commodity prices.
+
+When a stock moves, check whether its sector moved too. A stock-specific move and a sector-wide move need different interpretation.
+
+### Top Gainers and Losers
+
+Gainers and losers are useful for discovery, but they can be volatile.
+
+Before using them:
+
+- Check the reason for the move.
+- Open the stock page.
+- Compare chart, news, and analysis context.
+- Avoid assuming a strong move will continue.
+
+## How Market Overview Fits Your Research
+
+Use Market Overview before opening deeper tools:
+
+1. Check the index cards.
+2. Review market breadth.
+3. Look at active-volume names.
+4. Note gainers and losers.
+5. Choose one stock for deeper research.
+6. Open Traditional, Advanced AI, Smart AI, Chart Pattern, or AI News as needed.
+
+## Morning, During-Day, and After-Market Use
+
+### Before You Start Research
+
+Check:
+
+- Market status.
+- Index direction.
+- Breadth.
+- Active-volume names.
+- Any obvious sector strength or weakness.
+
+### While Reviewing a Stock
+
+Ask:
+
+- Is the stock moving with the market or against it?
+- Is the move supported by volume?
+- Is the sector also moving?
+- Does the latest report mention similar risks or catalysts?
+
+### After a Sharp Move
+
+Use market context to avoid emotional reactions.
+
+If a stock is up sharply, check whether it is part of a broad move. If it is down sharply, check whether the issue is company-specific or market-wide.
+
+## Common Terms
+
+| Term | Meaning |
+| --- | --- |
+| Index | A basket of stocks used to summarize market movement. |
+| Advance | A stock that moved up. |
+| Decline | A stock that moved down. |
+| Unchanged | A stock with little or no movement. |
+| Volume | Number of shares traded. |
+| Market breadth | How widely gains or losses are spread across stocks. |
+| Sector | A group of companies in a similar business area. |
+| Catalyst | News or an event that may explain a price move. |
+| Liquidity | How actively a stock trades. |
+
+## Research Checklist
+
+Before opening a full report from a market list, check:
+
+1. Why the stock appeared on the list.
+2. Whether volume is unusually high.
+3. Whether the sector is also moving.
+4. Whether recent news exists.
+5. Whether the chart move already happened.
+6. Whether you are viewing the latest available data.
+
+## Best Practices
+
+- Do not treat gainers as automatic buys.
+- Do not treat losers as automatic bargains.
+- Check whether the market is open before interpreting movement.
+- Use volume together with price movement and news.
+- Compare market context with the individual stock report.
+
+## Next Steps
+
+- [Dashboard overview](/getting-started/dashboard)
+- [Stock Analysis](/features/stock-analysis)
+- [AI News](/features/ai-news)

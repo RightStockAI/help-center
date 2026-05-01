@@ -1,368 +1,143 @@
 ---
 sidebar_position: 4
-title: Account Setup and Preferences
-description: Customize your RightStockAI account and preferences
+title: Account Setup and Sign-In
+description: Create your RightStockAI account, sign in, and set the basic preferences you need before your first analysis.
 ---
 
-# Account Setup and Preferences
-
-Complete your RightStockAI account setup to personalize your experience and optimize the platform for your needs.
-
-## Getting Started
-
-### Creating Your Account
-
-**Step 1: Sign Up**
-
-![RightStockAI Signup Page](../images/rightstockai-signup.png)
-*RightStockAI signup page showing the account creation interface*
-
-1. Visit [RightStockAI Sign Up](https://www.rightstockai.com/signup)
-2. Enter your email address
-3. Create a strong password
-4. Verify your email address
-5. Complete your profile setup
-
-**Step 2: Choose Subscription Plan**
-Choose the plan that fits your needs:
-
-#### **Free Plan**
-- Basic AI stock analysis
-- Stock details and market overview
-- AI news insights
-- Limited portfolio tracking
-- Standard support
-
-#### **Pro Plan**
-- Advanced AI analysis (56+ metrics)
-- Traditional analysis (100+ metrics)
-- Full portfolio management
-- Advanced portfolio optimization
-- Watchlist with alerts
-- Priority support
-- All future features
-
-**Step 3: First Login**
-After signing up:
-1. Navigate to [Dashboard](https://www.rightstockai.com/dashboard)
-2. Complete the interactive product tour
-3. Set up your preferences
-4. Start analyzing stocks!
-
-## Account Creation
-
-If you haven't created an account yet:
-
-### Sign Up Process
-1. Visit [rightstockai.com](https://rightstockai.com)
-2. Click "Sign Up" or "Get Started"
-3. Choose account type:
-   - **Free Account** - Basic features, limited analyses
-   - **Premium Account** - Full features, unlimited analyses
-
-### Required Information
-- **Email Address** - For account access and notifications
-- **Password** - Secure, unique password
-- **Full Name** - For personalization
-- **Phone Number** (Optional) - For SMS alerts
-
-### Email Verification
-- Check your email for verification link
-- Click link to activate account
-- Return to login page
-
-## Profile Setup
-
-After logging in, complete your profile:
-
-### Basic Profile Information
-1. Go to **Settings** → **Profile**
-2. Add personal details:
-   - **Display Name** - How you'll appear
-   - **Profile Picture** - Optional avatar
-   - **Location** - For regional preferences
-   - **Bio** - Brief description (optional)
-
-### Investment Profile
-Help us customize recommendations:
-
-#### Experience Level
-- **Beginner** - New to investing
-- **Intermediate** - Some experience
-- **Advanced** - Experienced investor
-- **Professional** - Financial advisor/trader
-
-#### Investment Goals
-- **Capital Growth** - Long-term growth
-- **Income** - Dividend income
-- **Preservation** - Capital preservation
-- **Speculation** - Short-term trading
-
-#### Risk Tolerance
-- **Conservative** - Low risk, stable returns
-- **Moderate** - Balanced risk/return
-- **Aggressive** - High risk, high potential returns
-
-#### Investment Horizon
-- **Short-term** (< 1 year)
-- **Medium-term** (1-5 years)
-- **Long-term** (5+ years)
+# Account Setup and Sign-In
 
-## Notification Preferences
+Use this page when you are new to RightStockAI or when you need help getting back into your account.
 
-Control how and when you receive updates:
+This guide focuses only on the setup steps most users need before using the product. Advanced portfolio, chart, report, and analysis settings are explained in their own feature guides.
 
-### Email Notifications
-- **Analysis Updates** - New analysis available
-- **Price Alerts** - Stock price alerts
-- **Portfolio Reports** - Weekly/monthly summaries
-- **Market News** - Important market updates
-- **Product Updates** - New features and improvements
+## What You Need
 
-### Push Notifications (Browser)
-- **Real-time Alerts** - Instant price notifications
-- **Analysis Complete** - When AI analysis finishes
-- **Portfolio Changes** - Significant value changes
+- An email address you can open immediately.
+- Access to the same browser or device where you want to use RightStockAI.
+- A stable internet connection.
+- A few minutes to confirm your login and review basic settings.
 
-### SMS Notifications (Premium)
-- **Critical Alerts** - Important price movements
-- **Security Alerts** - Account security events
+## Create Your Account
 
-## Display Preferences
+![RightStockAI signup page](../images/rightstockai-signup.png)
+*RightStockAI account entry page.*
 
-Customize the look and feel:
+1. Open [RightStockAI](https://www.rightstockai.com).
+2. Select **Sign In**, **Get Started**, or the account option shown on the page.
+3. Use the sign-in method available to you.
+4. Complete any email verification step shown by the app.
+5. After login, open the dashboard and continue with your first setup.
 
-### Theme Settings
-- **Light Mode** - Bright, traditional interface
-- **Dark Mode** - Easy on eyes, modern look
-- **Auto Mode** - Follows system preference
+## Sign-In Methods
 
-### Language Settings
-- **Interface Language** - Platform language
-- **Content Language** - Analysis language
-- **Regional Formats** - Date, number formats
+RightStockAI may show different sign-in choices depending on what is enabled for your account.
 
-### Dashboard Layout
-- **Widget Arrangement** - Drag to reorder
-- **Widget Sizes** - Resize as needed
-- **Hidden Widgets** - Show/hide sections
+### Email Me a Magic Link
 
-## Analysis Preferences
+Use this option when you want passwordless login.
 
-Configure how analyses work for you:
+1. Enter your email address.
+2. Select **Email me a magic link**.
+3. Open the email from RightStockAI.
+4. Click the link in the same browser where you want to use the app.
 
-### Default Analysis Settings
-- **Timeframe** - Default chart period (1M, 3M, 6M)
-- **Chart Type** - Line, candlestick, bar
-- **Indicators** - Default technical indicators
-- **AI Confidence Threshold** - Minimum confidence to show
+Magic links expire after a short time for security. If your link does not work, request a new one from the sign-in page.
 
-### Data Preferences
-- **Currency Display** - INR, USD
-- **Decimal Places** - Price precision
-- **Volume Units** - Thousands, lakhs, millions
-- **Date Format** - DD/MM/YYYY, MM/DD/YYYY
+### Email and Password
 
-## Portfolio Settings
+If password login is available:
 
-Configure portfolio tracking:
+- Use a unique password that you do not reuse on other sites.
+- Save it in a password manager.
+- Reset the password from the sign-in page if you cannot remember it.
 
-### Default Portfolio
-- **Primary Portfolio** - Default for new holdings
-- **Currency** - Base currency for calculations
-- **Cost Basis Method** - FIFO, LIFO, average
+### Social Login
 
-### Performance Calculation
-- **Include Dividends** - In total returns
-- **Annualized Returns** - Time-weighted calculations
-- **Benchmark Comparison** - NIFTY 50, Sensex
+If Google or another social login is shown, use the same sign-in option each time. Signing in with a different email can create or open a different account.
 
-### Reporting Preferences
-- **Report Frequency** - Daily, weekly, monthly
-- **Report Format** - PDF, email summary
-- **Custom Date Ranges** - Specific periods
+## First Things to Check After Login
 
-## Security Settings
+### 1. Confirm Your Profile
 
-Keep your account secure:
+Open your profile or account settings and confirm:
 
-### Password Management
-- **Change Password** - Regular updates recommended
-- **Password Strength** - Complexity requirements
-- **Two-Factor Authentication** - Extra security layer
+- Your name or display name.
+- Your email address.
+- Any optional contact details the app asks you to review.
 
-### Login Preferences
-- **Session Timeout** - Auto-logout after inactivity
-- **Login Notifications** - Alert on new logins
-- **Trusted Devices** - Remember devices
+Only add information that is useful for your account, notifications, or support.
 
-### Data Privacy
-- **Data Export** - Download your data
-- **Data Deletion** - Remove account data
-- **Privacy Settings** - Control data sharing
+### 2. Check Your Plan
 
-## API and Integrations
+Open **My Subscription** or the pricing page to understand:
 
-Connect external services:
+- Which plan is active on your account.
+- Which tools are available to you.
+- Whether a page is fully available, preview-only, locked, or limited by usage rules.
 
-### Broker Integrations
-- **Auto-import Trades** - From supported brokers
-- **Real-time Sync** - Live portfolio updates
-- **Transaction History** - Import past trades
+Do not rely on copied pricing text inside documentation. For current plan names, prices, and included limits, use the live pricing page:
 
-### Third-party Services
-- **Google Calendar** - Sync alerts
-- **Slack/Teams** - Notification channels
-- **Zapier** - Automation workflows
+[View current pricing](https://www.rightstockai.com/pricing)
 
-## Billing and Subscription
+### 3. Review Basic Preferences
 
-Manage your subscription:
+Set only the preferences you need right away:
 
-### Free Tier Limits
-- **Daily Analyses** - Current usage and limits
-- **Portfolio Size** - Holding limits
-- **Data History** - Available historical data
+- Theme preference, if available.
+- Email or browser notifications, if available.
+- Default dashboard or research workflow, if available.
+- Portfolio display preferences after you create your first portfolio.
 
-### Premium Features
-- **Upgrade Options** - Available plans
-- **Billing History** - Past payments
-- **Payment Methods** - Update cards
+You do not need to configure every setting before your first analysis.
 
-### Referral Program
-- **Referral Code** - Earn credits
-- **Referral History** - Track referrals
-- **Rewards** - Available credits
+## Security Basics
 
-## Data Management
+Keep your account safe:
 
-Control your data:
+- Use the same email address every time you sign in.
+- Do not forward magic links to anyone.
+- Use a strong password if your account uses password login.
+- Sign out on shared devices.
+- Contact support if you see account activity you do not recognize.
 
-### Export Data
-- **Portfolio Data** - Holdings and transactions
-- **Analysis History** - Past analyses
-- **Watchlist Data** - Saved watchlists
-- **Settings Backup** - Preferences and configurations
+## Common Setup Problems
 
-### Import Data
-- **Bulk Portfolio Import** - CSV upload
-- **Broker Statements** - PDF import
-- **Settings Restore** - From backup
+### Magic Link Not Received
 
-## Accessibility Settings
+- Check your spam, promotions, or updates folder.
+- Confirm that you entered the correct email address.
+- Wait a minute and request a new link.
+- Use the most recent email if you requested multiple links.
 
-Make the platform accessible:
+### Magic Link Expired
 
-### Visual Accessibility
-- **Font Size** - Larger text options
-- **High Contrast** - Better visibility
-- **Color Blind Support** - Accessible color schemes
+Request a fresh link from the sign-in page. Expired links cannot be reused.
 
-### Motor Accessibility
-- **Keyboard Navigation** - Full keyboard control
-- **Large Click Targets** - Easier interaction
-- **Reduced Motion** - For motion sensitivity
+### Logged Into the Wrong Account
 
-### Screen Reader Support
-- **ARIA Labels** - Screen reader compatibility
-- **Semantic Structure** - Logical content organization
+Sign out and sign in again using the email address you used when creating the account. If you used social login earlier, use the same sign-in option again.
 
-## Browser Requirements
+### A Tool Looks Locked or Limited
 
-RightStockAI works best on modern browsers:
-- Chrome 102 or higher
-- Firefox 102 or higher
-- Safari 15.4 or higher
-- Edge 102 or higher
+Open **My Subscription** or the pricing page to confirm your plan and limits. Some tools may show previews, cooldowns, or usage limits depending on your plan.
 
-## Mobile Access
+### Profile or Settings Are Not Saving
 
-Access RightStockAI on any device:
-- Responsive design for tablets
-- Mobile-optimized interface
-- Touch-friendly controls
-- Full feature access on mobile
+- Refresh the page and try again.
+- Check your internet connection.
+- Sign out and sign in again.
+- Contact support if the issue continues.
 
-## System Requirements
+## Get Help
 
-- Stable internet connection (minimum 2 Mbps recommended)
-- JavaScript enabled
-- Cookies enabled for authentication
-- Screen resolution: 1024x768 or higher recommended
+Use the support page when login, plan access, or account settings are still unclear:
 
-## Mobile App Preferences
-
-If using mobile:
-
-### App Settings
-- **Push Notifications** - Mobile alerts
-- **Offline Mode** - Limited offline access
-- **Data Usage** - Control mobile data
-
-### Synchronization
-- **Auto-sync** - Background data updates
-- **Manual Sync** - On-demand updates
-- **Conflict Resolution** - Handle data conflicts
-
-## Troubleshooting Setup
-
-Common setup issues:
-
-### Profile Not Saving
-- Check internet connection
-- Clear browser cache
-- Try different browser
-
-### Notifications Not Working
-- Check email spam folder
-- Verify notification settings
-- Update browser permissions
-
-### Settings Not Applying
-- Refresh the page
-- Log out and back in
-- Contact support
-
-## Best Practices
-
-### Security Best Practices
-1. **Strong Passwords** - Use password manager
-2. **Two-Factor Auth** - Enable for security
-3. **Regular Updates** - Keep password current
-4. **Monitor Activity** - Check login history
-
-### Organization Best Practices
-1. **Logical Structure** - Organize portfolios clearly
-2. **Consistent Naming** - Standard conventions
-3. **Regular Backups** - Export data periodically
-4. **Clean Up** - Remove unused items
-
-### Performance Best Practices
-1. **Optimize Notifications** - Reduce unnecessary alerts
-2. **Dashboard Customization** - Focus on important widgets
-3. **Data Limits** - Archive old data
-4. **Browser Settings** - Enable caching
-
-## Getting Help
-
-### Setup Support
-- **In-app Help** - Context-sensitive help
-- **Setup Wizard** - Guided configuration
-- **Video Tutorials** - Visual guides
-
-### Advanced Support
-- **Support Chat** - Live assistance
-- **Email Support** - Detailed queries
-- **Community Forum** - User discussions
+[Contact RightStockAI support](https://www.rightstockai.com/contact-us)
 
 ## Next Steps
 
-With your account set up:
+After your account is ready:
 
-1. **[Your First Analysis](/getting-started/first-analysis)** - Test your setup
-2. **[Create Portfolio](/features/portfolio-management)** - Start tracking investments
-3. **[Advanced Features](/features/stock-analysis)** - Explore full capabilities
-
----
-
-**Tip:** Review your settings quarterly to ensure they match your current needs and preferences.
+1. Open [Dashboard Overview](./dashboard.md) to understand the main screen.
+2. Follow [Your First Stock Analysis](./first-analysis.md) to run your first research workflow.
+3. Read [Plans and Access](../subscription/plans.mdx) if you see locked tools, previews, or usage limits.
