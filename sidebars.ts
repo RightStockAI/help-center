@@ -78,6 +78,17 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: 'Stock Research Guides',
+          items: [
+            'learning/stock-research/ai-stock-analysis-india',
+            'learning/stock-research/nse-stock-analysis-workflow',
+            'learning/stock-research/chart-pattern-analysis-indian-stocks',
+            'learning/stock-research/portfolio-risk-analysis',
+            'learning/stock-research/nifty-50-research-workflow',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Investing Basics',
           items: [
             'learning/investing-basics/smart-investing',

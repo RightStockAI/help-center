@@ -61,4 +61,4 @@ Use these pages when something is unclear:
 
 - [Frequently Asked Questions](/help/faq)
 - [Troubleshooting Guide](/help/troubleshooting)
-- [Contact Support](https://www.rightstockai.com/contact)
+- [Contact Support](https://www.rightstockai.com/contact-us)

@@ -29,6 +29,40 @@ const config: Config = {
     },
   },
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        '@id': 'https://www.rightstockai.com/#organization',
+        name: 'RightStockAI',
+        url: 'https://www.rightstockai.com',
+        logo: 'https://www.rightstockai.com/images/logo/RightStockAI_logo.png',
+      }),
+    },
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        '@id': 'https://help.rightstockai.com/#website',
+        name: 'RightStockAI Help Center',
+        url: 'https://help.rightstockai.com',
+        publisher: {
+          '@id': 'https://www.rightstockai.com/#organization',
+        },
+        inLanguage: 'en-IN',
+      }),
+    },
+  ],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -67,6 +101,12 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      {
+        name: 'keywords',
+        content: 'RightStockAI help, AI stock analysis India, NSE stock analysis, BSE stock research, NIFTY 50 analysis, chart pattern analysis, portfolio risk analysis',
+      },
+    ],
     image: 'img/social-card.jpg',
 
     navbar: {

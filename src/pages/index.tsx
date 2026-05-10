@@ -107,6 +107,12 @@ const FeatureList = [
     link: '/features/smart-ai-analysis',
   },
   {
+    label: 'Guides',
+    title: 'Stock Research Guides',
+    description: 'Learn AI stock analysis, NSE workflows, chart patterns, NIFTY 50 review, and portfolio risk basics.',
+    link: '/learning/stock-research/ai-stock-analysis-india',
+  },
+  {
     label: 'Chart',
     title: 'Chart Patterns',
     description: 'Read pattern confidence, key levels, invalidation, previews, and report limits.',
@@ -191,10 +197,11 @@ function QuickStart() {
           <div className={styles.quickStartCard}>
             <h3>Research tools</h3>
             <ul>
+              <li><Link to="/learning/stock-research/ai-stock-analysis-india">AI Stock Analysis India</Link></li>
+              <li><Link to="/learning/stock-research/nse-stock-analysis-workflow">NSE Stock Analysis Workflow</Link></li>
               <li><Link to="/features/basic-ai-analysis">Basic AI Analysis</Link></li>
               <li><Link to="/features/smart-ai-analysis">Smart AI Analysis</Link></li>
               <li><Link to="/features/chart-pattern-analysis">Chart Pattern Analysis</Link></li>
-              <li><Link to="/features/portfolio-management">Portfolio Management</Link></li>
             </ul>
           </div>
           

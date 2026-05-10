@@ -229,4 +229,4 @@ Do not send:
 
 Use the support option in the app or the public contact page:
 
-[Contact RightStockAI Support](https://www.rightstockai.com/contact)
+[Contact RightStockAI Support](https://www.rightstockai.com/contact-us)
