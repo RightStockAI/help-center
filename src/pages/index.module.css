@@ -595,7 +595,11 @@
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 4.5rem 1.25rem 4rem;
+    padding: 4rem 1.25rem 3.5rem;
+  }
+
+  .heroBanner :global(.container) {
+    max-width: 100%;
   }
 
   .heroLayout {
@@ -603,8 +607,22 @@
     gap: 2rem;
   }
 
+  .buttons {
+    gap: 0.7rem;
+  }
+
+  .buttons :global(.button) {
+    padding: 0.75rem 1rem;
+    font-size: 0.94rem;
+  }
+
   .quickStartGrid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .quickStartCard {
+    padding: 1.3rem;
   }
 }
 
@@ -627,10 +645,20 @@
 
   .heroLayout,
   .heroContent,
-  .heroPanel,
   .heroTitle,
   .heroSubtitle,
-  .buttons,
+  .buttons {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .heroPanel {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
   .trustBadges {
     width: 100%;
     max-width: 100%;
@@ -646,10 +674,6 @@
     overflow-wrap: break-word;
   }
 
-  .heroPanel {
-    padding: 0.85rem;
-  }
-
   .buttons {
     align-items: stretch;
     flex-direction: column;
@@ -661,11 +685,14 @@
 
   .trustBadges {
     gap: 0.45rem;
+    flex-wrap: wrap;
   }
 
   .trustBadges span {
-    width: 100%;
+    flex: 1 1 calc(50% - 0.23rem);
+    min-width: 130px;
     justify-content: center;
+    box-sizing: border-box;
   }
 
   .features,
@@ -677,6 +704,10 @@
   .featureCard {
     min-height: auto;
   }
+
+  .quickStartCard {
+    padding: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -687,13 +718,49 @@
   .heroSubtitle,
   .buttons,
   .trustBadges {
-    max-width: 21.75rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .heroPanel {
+    padding: 0.9rem;
+  }
+
+  .buttons {
+    gap: 0.5rem;
+  }
+
+  .buttons :global(.button) {
+    padding: 0.72rem 0.9rem;
+    font-size: 0.92rem;
+  }
+
+  .trustBadges span {
+    flex: 0 1 auto;
+    font-size: 0.78rem;
+    padding: 0.3rem 0.6rem;
   }
 
   .panelHeader {
     align-items: flex-start;
     flex-direction: column;
     gap: 0.2rem;
+  }
+
+  .featureCard {
+    padding: 1rem;
+  }
+
+  .quickStartCard {
+    padding: 1rem;
+  }
+
+  .quickStartCard h3 {
+    font-size: 0.98rem;
+  }
+
+  .quickStartCard a {
+    font-size: 0.88rem;
   }
 }
 
